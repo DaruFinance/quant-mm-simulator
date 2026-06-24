@@ -1,0 +1,25 @@
+{
+  "what": "Harvestability of the June-2022 stress-regime positive: is the +0.049bp passive maker P&L extractable by an inventory-aware quote or a cross-root flow signal? Both corollary nulls re-run on the stress regime.",
+  "quoting_null_jun2022": {
+    "pbo_cscv": 0.5,
+    "family_cells": null,
+    "bh_significant": null,
+    "bhy_significant": null,
+    "inventory_skew_minus_symmetric": {
+      "median": 0.0,
+      "frac_positive": 0.54,
+      "perm_significant_rootdays": 0,
+      "n": 65
+    },
+    "reading": "PBO ~0.5 (coin-flip) = IS-best quoting config has no OOS edge; skew adds nothing over symmetric. Same verdict as calm (PBO 0.543)."
+  },
+  "ofi_null_jun2022": {
+    "own_contemp_is_r2": 0.5594407744551249,
+    "cross_incr_oos_r2": -0.006366736869256457,
+    "cross_incr_pos_window_frac": 0.16666666666666666,
+    "net_bp_gross": 0.08138317646021556,
+    "net_bp_fullspread": -1.4343681201915701,
+    "reading": "cross-root flow adds nothing OOS (incrR2<0) and dies after taker cost; 0/13 roots significant. Same verdict as calm."
+  },
+  "synthesis": "The stress-regime maker positive is a passive liquidity-provision premium for bearing risk in a vol spike, NOT an alpha a quote or flow signal can extract. The two corollary nulls (quoting, cross-root OFI) hold in BOTH regimes; only the raw passive decomposition shifts (net ~0 calm -> +0.049 stress)."
+}

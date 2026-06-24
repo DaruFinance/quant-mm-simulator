@@ -1,0 +1,335 @@
+{
+  "description": "adverse selection vs sigma^2/8 LVR on the same axis (bp of notional, 10s horizon), per CME root",
+  "horizon": "10s",
+  "lvr_definition": "1e4 * Var(r_10s)/8 ; r_10s = 10s mid log-return on a 10s clock grid; identical mid timeline as decomp",
+  "adverse_definition": "-adverse_select_bp_10s from decomp_by_root.csv (measured post-fill drift cost, positive magnitude)",
+  "cross_root": {
+    "n_roots": 13,
+    "pearson_corr_lvr_vs_adverse": 0.9187004991388847,
+    "spearman_corr_lvr_vs_adverse": 0.6373626373626374,
+    "ratio_overall_fillweighted_lvr_over_adverse": 3.515207122642966e-05,
+    "lvr_overall_fillweighted_bp": 2.3233123100582888e-05,
+    "adverse_overall_fillweighted_bp": 0.6609318395757768,
+    "ratio_unweighted_mean": 2.525457283608952e-05,
+    "ratio_unweighted_median": 2.290207084615698e-05
+  },
+  "by_root": [
+    {
+      "root": "NG",
+      "n_rootdays": 18,
+      "n_grid_total": 136060,
+      "lvr_equiv_bp_10s": 0.0001354921928061912,
+      "rv_10s_bp": 3.2417345631383343,
+      "n_fills": 26423,
+      "spread_capture_bp_10s": 2.700946791720649,
+      "adverse_select_bp_10s": -2.8084270052874825,
+      "net_after_fee_bp_10s": -0.122480213566834,
+      "adverse_cost_bp_10s": 2.8084270052874825,
+      "ratio_lvr_over_adverse": 4.824486894304082e-05
+    },
+    {
+      "root": "ZB",
+      "n_rootdays": 18,
+      "n_grid_total": 98723,
+      "lvr_equiv_bp_10s": 8.684294227249075e-06,
+      "rv_10s_bp": 0.7505282137012226,
+      "n_fills": 6575,
+      "spread_capture_bp_10s": 1.3090976274626651,
+      "adverse_select_bp_10s": -1.2812959635860128,
+      "net_after_fee_bp_10s": 0.0128016638766521,
+      "adverse_cost_bp_10s": 1.2812959635860128,
+      "ratio_lvr_over_adverse": 6.777742593478561e-06
+    },
+    {
+      "root": "SI",
+      "n_rootdays": 18,
+      "n_grid_total": 136063,
+      "lvr_equiv_bp_10s": 3.427246639135346e-05,
+      "rv_10s_bp": 1.604612239584876,
+      "n_fills": 6999,
+      "spread_capture_bp_10s": 1.0867947833247136,
+      "adverse_select_bp_10s": -1.0093447535011904,
+      "net_after_fee_bp_10s": 0.0624500298235234,
+      "adverse_cost_bp_10s": 1.0093447535011904,
+      "ratio_lvr_over_adverse": 3.395516375596145e-05
+    },
+    {
+      "root": "CL",
+      "n_rootdays": 19,
+      "n_grid_total": 143624,
+      "lvr_equiv_bp_10s": 4.1759689561846694e-05,
+      "rv_10s_bp": 1.7746226748743148,
+      "n_fills": 69728,
+      "spread_capture_bp_10s": 0.9140882395750956,
+      "adverse_select_bp_10s": -0.8721574794258833,
+      "net_after_fee_bp_10s": 0.0269307601492123,
+      "adverse_cost_bp_10s": 0.8721574794258833,
+      "ratio_lvr_over_adverse": 4.788090516558537e-05
+    },
+    {
+      "root": "HG",
+      "n_rootdays": 18,
+      "n_grid_total": 136060,
+      "lvr_equiv_bp_10s": 2.3105263420590113e-05,
+      "rv_10s_bp": 1.3311426485508147,
+      "n_fills": 11473,
+      "spread_capture_bp_10s": 0.8262945310740561,
+      "adverse_select_bp_10s": -0.8166515030958071,
+      "net_after_fee_bp_10s": -0.0053569720217509,
+      "adverse_cost_bp_10s": 0.8166515030958071,
+      "ratio_lvr_over_adverse": 2.8292684618838535e-05
+    },
+    {
+      "root": "ZN",
+      "n_rootdays": 18,
+      "n_grid_total": 98720,
+      "lvr_equiv_bp_10s": 2.5460572718723048e-06,
+      "rv_10s_bp": 0.4068741364212049,
+      "n_fills": 14391,
+      "spread_capture_bp_10s": 0.7300008658043037,
+      "adverse_select_bp_10s": -0.6324455515286369,
+      "net_after_fee_bp_10s": 0.0825553142756666,
+      "adverse_cost_bp_10s": 0.6324455515286369,
+      "ratio_lvr_over_adverse": 4.025733544521611e-06
+    },
+    {
+      "root": "6J",
+      "n_rootdays": 18,
+      "n_grid_total": 136064,
+      "lvr_equiv_bp_10s": 8.771663647172677e-06,
+      "rv_10s_bp": 0.8079725613663717,
+      "n_fills": 8109,
+      "spread_capture_bp_10s": 0.4187586228195831,
+      "adverse_select_bp_10s": -0.5202071465048231,
+      "net_after_fee_bp_10s": -0.1164485236852398,
+      "adverse_cost_bp_10s": 0.5202071465048231,
+      "ratio_lvr_over_adverse": 1.686186686612801e-05
+    },
+    {
+      "root": "ZF",
+      "n_rootdays": 18,
+      "n_grid_total": 98714,
+      "lvr_equiv_bp_10s": 1.1288923845533054e-06,
+      "rv_10s_bp": 0.26926111219193477,
+      "n_fills": 15657,
+      "spread_capture_bp_10s": 0.3940837275440585,
+      "adverse_select_bp_10s": -0.3753720977858117,
+      "net_after_fee_bp_10s": 0.0037116297582468,
+      "adverse_cost_bp_10s": 0.3753720977858117,
+      "ratio_lvr_over_adverse": 3.007395571520221e-06
+    },
+    {
+      "root": "RTY",
+      "n_rootdays": 12,
+      "n_grid_total": 73428,
+      "lvr_equiv_bp_10s": 1.1666909890121882e-05,
+      "rv_10s_bp": 0.890392052890634,
+      "n_fills": 10512,
+      "spread_capture_bp_10s": 0.276950237623539,
+      "adverse_select_bp_10s": -0.3575613922661637,
+      "net_after_fee_bp_10s": -0.0956111546426246,
+      "adverse_cost_bp_10s": 0.3575613922661637,
+      "ratio_lvr_over_adverse": 3.262910969268516e-05
+    },
+    {
+      "root": "GC",
+      "n_rootdays": 18,
+      "n_grid_total": 136063,
+      "lvr_equiv_bp_10s": 8.038813350276966e-06,
+      "rv_10s_bp": 0.7753036642298856,
+      "n_fills": 28741,
+      "spread_capture_bp_10s": 0.3100673722927485,
+      "adverse_select_bp_10s": -0.3510081426381535,
+      "net_after_fee_bp_10s": -0.0559407703454049,
+      "adverse_cost_bp_10s": 0.3510081426381535,
+      "ratio_lvr_over_adverse": 2.290207084615698e-05
+    },
+    {
+      "root": "6E",
+      "n_rootdays": 18,
+      "n_grid_total": 136064,
+      "lvr_equiv_bp_10s": 3.3128698675423757e-06,
+      "rv_10s_bp": 0.49109572297257925,
+      "n_fills": 11357,
+      "spread_capture_bp_10s": 0.2774767893876255,
+      "adverse_select_bp_10s": -0.3124609397413633,
+      "net_after_fee_bp_10s": -0.0499841503537377,
+      "adverse_cost_bp_10s": 0.3124609397413633,
+      "ratio_lvr_over_adverse": 1.0602508813692276e-05
+    },
+    {
+      "root": "ES",
+      "n_rootdays": 22,
+      "n_grid_total": 131120,
+      "lvr_equiv_bp_10s": 4.097406934748313e-06,
+      "rv_10s_bp": 0.49038634871661396,
+      "n_fills": 113689,
+      "spread_capture_bp_10s": 0.279638319867237,
+      "adverse_select_bp_10s": -0.3005847885998152,
+      "net_after_fee_bp_10s": -0.0359464687325781,
+      "adverse_cost_bp_10s": 0.3005847885998152,
+      "ratio_lvr_over_adverse": 1.3631451391252578e-05
+    },
+    {
+      "root": "NQ",
+      "n_rootdays": 19,
+      "n_grid_total": 107362,
+      "lvr_equiv_bp_10s": 5.842318793348611e-06,
+      "rv_10s_bp": 0.5967737834728852,
+      "n_fills": 29733,
+      "spread_capture_bp_10s": 0.1122683278573937,
+      "adverse_select_bp_10s": -0.0981936231047671,
+      "net_after_fee_bp_10s": -0.0009252952473734,
+      "adverse_cost_bp_10s": 0.0981936231047671,
+      "ratio_lvr_over_adverse": 5.949794506630215e-05
+    }
+  ],
+  "cme_commensurate_linear_axis": {
+    "note": "sigma_tau = 10s mid-return stdev in bp (LINEAR, first-order), the axis commensurate with the per-fill adverse drift; sigma^2/8 LVR is second-order and ~1e4x smaller per fill",
+    "pearson_corr_adverse_vs_sigma_tau": 0.8789,
+    "spearman_corr_adverse_vs_sigma_tau": 0.5989,
+    "adverse_over_sigma_tau_fillweighted": 0.6344,
+    "adverse_over_sigma_tau_unweighted_mean": 0.7821,
+    "adverse_eq_k_sigma_tau_origin_slope_k": 0.7399,
+    "adverse_eq_k_sigma_tau_origin_R2": 0.7711
+  },
+  "magnitude_verdict": {
+    "sigma2_over_8_lvr_fillweighted_bp": 2.3233123100582888e-05,
+    "adverse_drift_fillweighted_bp": 0.660931839575777,
+    "adverse_over_lvr_magnitude_gap": 28447.8,
+    "pearson_corr_sigma2over8_vs_adverse": 0.9187,
+    "reading": "LITERAL sigma^2/8 LVR and the measured per-fill adverse drift do NOT line up in MAGNITUDE (~28448x apart) because sigma^2/8 is a second-order per-time variance rate while the per-fill adverse drift is a first-order mean signed move; but they CO-VARY strongly across roots (Pearson 0.919), and the adverse drift is ~0.74*sigma_tau (R2 0.77) on the commensurate linear axis. Same volatility-driven primitive, NOT the same number per fill => analogy/same-economic-role, not a literal identity."
+  },
+  "dex_reverse_check_1b": {
+    "note": "DEX firm-up (15 pools): the sigma^2/8 LVR IS the charged adverse-selection cost (variance form). Check it is sigma-governed like the CME adverse drift.",
+    "n_pools": 15,
+    "pearson_corr_lvr_per_hr_vs_sigma_hr": 0.9681,
+    "pearson_corr_lvr_vs_sigma2": 0.9596,
+    "total_fees_usd": 41788.69874830182,
+    "total_lvr_usd": 1910.6482051498235,
+    "lvr_over_fees": 0.0457,
+    "lvr_eaten_pool_eth_xautusdt_net_usd": 8.32456937059851,
+    "by_pool": [
+      {
+        "pool": "arb_doryusdc",
+        "fees_usd": 1944.4886499742358,
+        "lvr_usd": 813.4580137427665,
+        "net_usd": 1131.030636231469,
+        "mean_sigma_hr_bp": 124.24798498435995,
+        "mean_lvr_bp_per_hr": 0.3092996249972496
+      },
+      {
+        "pool": "eth_xautusdt",
+        "fees_usd": 371.8345704347716,
+        "lvr_usd": 355.99320480108616,
+        "net_usd": 8.32456937059851,
+        "mean_sigma_hr_bp": 48.435345465907574,
+        "mean_lvr_bp_per_hr": 0.13587526900804814
+      },
+      {
+        "pool": "base_magssi",
+        "fees_usd": 280.39107570043666,
+        "lvr_usd": 137.90268447297527,
+        "net_usd": 142.48839122746136,
+        "mean_sigma_hr_bp": 51.68163459432632,
+        "mean_lvr_bp_per_hr": 0.05429239546180129
+      },
+      {
+        "pool": "base_ethusdc",
+        "fees_usd": 1206.8852262833389,
+        "lvr_usd": 86.02462533983639,
+        "net_usd": 1120.8606009435023,
+        "mean_sigma_hr_bp": 33.04680449482872,
+        "mean_lvr_bp_per_hr": 0.0327089830189492
+      },
+      {
+        "pool": "arb_wethusdt",
+        "fees_usd": 433.3917301766717,
+        "lvr_usd": 85.26500077956385,
+        "net_usd": 348.12672939710785,
+        "mean_sigma_hr_bp": 32.26072660960324,
+        "mean_lvr_bp_per_hr": 0.03229734878013782
+      },
+      {
+        "pool": "base_wethusdc",
+        "fees_usd": 3780.530719600816,
+        "lvr_usd": 84.55824742260026,
+        "net_usd": 3695.972472178216,
+        "mean_sigma_hr_bp": 32.33545105545249,
+        "mean_lvr_bp_per_hr": 0.03202963917522737
+      },
+      {
+        "pool": "eth_wethusdt",
+        "fees_usd": 570.9315136806415,
+        "lvr_usd": 74.27156903857679,
+        "net_usd": 489.07732415204043,
+        "mean_sigma_hr_bp": 26.174122973781415,
+        "mean_lvr_bp_per_hr": 0.028133170090370002
+      },
+      {
+        "pool": "arb_wbtcusdt",
+        "fees_usd": 514.5780478936616,
+        "lvr_usd": 48.71065924967649,
+        "net_usd": 465.8673886439851,
+        "mean_sigma_hr_bp": 26.86028747781428,
+        "mean_lvr_bp_per_hr": 0.01845100729154412
+      },
+      {
+        "pool": "arb_wbtcweth",
+        "fees_usd": 271.06318080101056,
+        "lvr_usd": 48.47651544460952,
+        "net_usd": 222.58666535640108,
+        "mean_sigma_hr_bp": 26.59324321975263,
+        "mean_lvr_bp_per_hr": 0.018362316456291484
+      },
+      {
+        "pool": "eth_wbtcweth",
+        "fees_usd": 182.13005448709023,
+        "lvr_usd": 43.79825930820202,
+        "net_usd": 130.74917468886395,
+        "mean_sigma_hr_bp": 24.425500004611358,
+        "mean_lvr_bp_per_hr": 0.01659024973795531
+      },
+      {
+        "pool": "base_cbbtcusdc",
+        "fees_usd": 5874.854790361369,
+        "lvr_usd": 41.024919594450985,
+        "net_usd": 5833.829870766918,
+        "mean_sigma_hr_bp": 24.5420820218818,
+        "mean_lvr_bp_per_hr": 0.015539742270625372
+      },
+      {
+        "pool": "base_cbbtcweth",
+        "fees_usd": 1533.6387430665372,
+        "lvr_usd": 40.665156887262185,
+        "net_usd": 1492.973586179275,
+        "mean_sigma_hr_bp": 24.347267013779216,
+        "mean_lvr_bp_per_hr": 0.015403468517902346
+      },
+      {
+        "pool": "arb_usdcweth",
+        "fees_usd": 23485.502778677917,
+        "lvr_usd": 31.373296112780604,
+        "net_usd": 23454.129482565135,
+        "mean_sigma_hr_bp": 24.359672754573616,
+        "mean_lvr_bp_per_hr": 0.01188382428514417
+      },
+      {
+        "pool": "eth_usdcweth",
+        "fees_usd": 842.2255456058716,
+        "lvr_usd": 15.072019304594145,
+        "net_usd": 819.5709058112532,
+        "mean_sigma_hr_bp": 17.443534984072674,
+        "mean_lvr_bp_per_hr": 0.005709098221437176
+      },
+      {
+        "pool": "arb_usdcwbtc",
+        "fees_usd": 496.25212155744947,
+        "lvr_usd": 4.054033650842413,
+        "net_usd": 492.19808790660704,
+        "mean_sigma_hr_bp": 8.512016722175538,
+        "mean_lvr_bp_per_hr": 0.0015356188071372775
+      }
+    ]
+  }
+}

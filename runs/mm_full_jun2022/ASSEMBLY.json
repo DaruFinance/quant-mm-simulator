@@ -1,0 +1,2934 @@
+{
+  "n_runs": 65,
+  "family_size": 325,
+  "dsr_effective_trials": 65.0,
+  "family": [
+    {
+      "hypothesis": "M1_skew",
+      "root": "6E",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -15.057066130387026
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6E",
+      "date": "20220613",
+      "p_value": 0.9790209790209791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.22606718640457393
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6E",
+      "date": "20220613",
+      "p_value": 0.8791208791208791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.14763643611016544
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6E",
+      "date": "20220613",
+      "p_value": 0.98001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.273044493917476e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6E",
+      "date": "20220613",
+      "p_value": 0.002997002997002997,
+      "bh_qvalue": 0.2435064935064935,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0013491433157691239
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6E",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -12.990002369106847
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6E",
+      "date": "20220614",
+      "p_value": 0.5684315684315684,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.023379902160614
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6E",
+      "date": "20220614",
+      "p_value": 0.27972027972027974,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05404719952654926
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6E",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.828124642251667e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6E",
+      "date": "20220614",
+      "p_value": 0.21678321678321677,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.000602346883077058
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6E",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -20.97805314394081
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6E",
+      "date": "20220615",
+      "p_value": 0.3006993006993007,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.03546621113290005
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6E",
+      "date": "20220615",
+      "p_value": 0.23476523476523475,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.057331304804064114
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6E",
+      "date": "20220615",
+      "p_value": 0.981018981018981,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.07420917860772e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6E",
+      "date": "20220615",
+      "p_value": 0.10989010989010989,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0016842368869231456
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6E",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -17.97674398569921
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6E",
+      "date": "20220616",
+      "p_value": 0.9040959040959041,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.10513209292901385
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6E",
+      "date": "20220616",
+      "p_value": 0.7722277722277723,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.06928484741994777
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6E",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.429792605594224e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6E",
+      "date": "20220616",
+      "p_value": 0.37962037962037964,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.00026714545961546807
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6E",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -12.99778365153365
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6E",
+      "date": "20220617",
+      "p_value": 0.5944055944055944,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.031127753602366838
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6E",
+      "date": "20220617",
+      "p_value": 0.7172827172827173,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.06795224508376921
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6E",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.327764351585175e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6E",
+      "date": "20220617",
+      "p_value": 0.12987012987012986,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0006010416274998507
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6J",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -10.507243005750468
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6J",
+      "date": "20220613",
+      "p_value": 0.2997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.08670720327385481
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6J",
+      "date": "20220613",
+      "p_value": 0.24175824175824176,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.13031922311040806
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6J",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.1943288787350364e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6J",
+      "date": "20220613",
+      "p_value": 0.32167832167832167,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0002239037653845962
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6J",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.133127858874127
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6J",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.40541093723228117
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6J",
+      "date": "20220614",
+      "p_value": 0.995004995004995,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.3753246224406143
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6J",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.319017799677032e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6J",
+      "date": "20220614",
+      "p_value": 0.35364635364635366,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 9.248910730767749e-05
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6J",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -12.721221274579484
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6J",
+      "date": "20220615",
+      "p_value": 0.42357642357642356,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.052714124281366334
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6J",
+      "date": "20220615",
+      "p_value": 0.939060939060939,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.37050468766377
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6J",
+      "date": "20220615",
+      "p_value": 0.986013986013986,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.207578108988347e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6J",
+      "date": "20220615",
+      "p_value": 0.004995004995004995,
+      "bh_qvalue": 0.27056277056277056,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0018274465342307305
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6J",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -14.106439663156081
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6J",
+      "date": "20220616",
+      "p_value": 0.5654345654345654,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.014306132271116628
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6J",
+      "date": "20220616",
+      "p_value": 0.5574425574425574,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.01416831799779144
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6J",
+      "date": "20220616",
+      "p_value": 0.9400599400599401,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.610072851341706e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6J",
+      "date": "20220616",
+      "p_value": 0.07692307692307693,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0018841063903845758
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "6J",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -18.03579926569846
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "6J",
+      "date": "20220617",
+      "p_value": 0.935064935064935,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.1585910415364464
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "6J",
+      "date": "20220617",
+      "p_value": 0.9790209790209791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.19883326545273008
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "6J",
+      "date": "20220617",
+      "p_value": 0.061938061938061936,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 1.734402668523702e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "6J",
+      "date": "20220617",
+      "p_value": 0.001998001998001998,
+      "bh_qvalue": 0.21645021645021645,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0033766652533334237
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "CL",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -17.94449865242227
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "CL",
+      "date": "20220613",
+      "p_value": 0.9250749250749251,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0958210517788232
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "CL",
+      "date": "20220613",
+      "p_value": 0.7432567432567433,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0700390045818251
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "CL",
+      "date": "20220613",
+      "p_value": 0.9690309690309691,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.2947152204512394e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "CL",
+      "date": "20220613",
+      "p_value": 0.6173826173826173,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.27994173461538324
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "CL",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -18.338143297325647
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "CL",
+      "date": "20220614",
+      "p_value": 0.057942057942057944,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 0.12935986433638832
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "CL",
+      "date": "20220614",
+      "p_value": 0.06593406593406594,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 0.16092893236121192
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "CL",
+      "date": "20220614",
+      "p_value": 0.18281718281718282,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 7.622903991104816e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "CL",
+      "date": "20220614",
+      "p_value": 0.4725274725274725,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.07632928046154613
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "CL",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -15.678941422444495
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "CL",
+      "date": "20220615",
+      "p_value": 0.13986013986013987,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.11348192666504883
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "CL",
+      "date": "20220615",
+      "p_value": 0.027972027972027972,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 0.2961333774562394
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "CL",
+      "date": "20220615",
+      "p_value": 0.3956043956043956,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 2.231623827592626e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "CL",
+      "date": "20220615",
+      "p_value": 0.6163836163836164,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.5539008129687557
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "CL",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -12.926487494068706
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "CL",
+      "date": "20220616",
+      "p_value": 0.33466533466533466,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.04989245866922618
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "CL",
+      "date": "20220616",
+      "p_value": 0.3546453546453546,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05256317264538203
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "CL",
+      "date": "20220616",
+      "p_value": 0.8601398601398601,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.42593962692237e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "CL",
+      "date": "20220616",
+      "p_value": 0.4775224775224775,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05979412306451077
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "CL",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -25.34293361458803
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "CL",
+      "date": "20220617",
+      "p_value": 0.7592407592407593,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.06877768681116671
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "CL",
+      "date": "20220617",
+      "p_value": 0.7982017982017982,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.1018216704688664
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "CL",
+      "date": "20220617",
+      "p_value": 0.9440559440559441,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.3947063268164891e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "CL",
+      "date": "20220617",
+      "p_value": 0.8291708291708292,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.7708488189999938
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ES",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -193.58834961549178
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ES",
+      "date": "20220613",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.2757266477033956
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ES",
+      "date": "20220613",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.3126558607445437
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ES",
+      "date": "20220613",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.1893442062752565e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ES",
+      "date": "20220613",
+      "p_value": 0.6803196803196803,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -20.3718642403846
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ES",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -162.2059634701586
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ES",
+      "date": "20220614",
+      "p_value": 0.9790209790209791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.2644421956094789
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ES",
+      "date": "20220614",
+      "p_value": 0.9600399600399601,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.21844768860809774
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ES",
+      "date": "20220614",
+      "p_value": 0.9280719280719281,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.817252283378227e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ES",
+      "date": "20220614",
+      "p_value": 0.8121878121878122,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -37.46328390192308
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ES",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -197.78192358813772
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ES",
+      "date": "20220615",
+      "p_value": 0.7172827172827173,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.05760771601290534
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ES",
+      "date": "20220615",
+      "p_value": 0.6333666333666333,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.040784150735665325
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ES",
+      "date": "20220615",
+      "p_value": 0.961038961038961,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -6.799568061125078e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ES",
+      "date": "20220615",
+      "p_value": 0.001998001998001998,
+      "bh_qvalue": 0.21645021645021645,
+      "bh_reject_at_0.05": false,
+      "effect": 220.5935924057693
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ES",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -190.39323950997507
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ES",
+      "date": "20220616",
+      "p_value": 0.996003996003996,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.27664380088675
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ES",
+      "date": "20220616",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.30904253076663646
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ES",
+      "date": "20220616",
+      "p_value": 0.993006993006993,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.6076642825092e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ES",
+      "date": "20220616",
+      "p_value": 0.9470529470529471,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -42.305952469230775
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ES",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -200.95117161185908
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ES",
+      "date": "20220617",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.2997835705734933
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ES",
+      "date": "20220617",
+      "p_value": 0.997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.31097174247640275
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ES",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.001208005384953e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ES",
+      "date": "20220617",
+      "p_value": 0.054945054945054944,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 52.27741615208335
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "GC",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -25.67385285185988
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "GC",
+      "date": "20220613",
+      "p_value": 0.991008991008991,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.1785508438271854
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "GC",
+      "date": "20220613",
+      "p_value": 0.961038961038961,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.16258172224245399
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "GC",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.3292478669994337e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "GC",
+      "date": "20220613",
+      "p_value": 0.013986013986013986,
+      "bh_qvalue": 0.6493506493506495,
+      "bh_reject_at_0.05": false,
+      "effect": 9.94413583538444
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "GC",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -13.419173860964907
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "GC",
+      "date": "20220614",
+      "p_value": 0.5424575424575424,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.008330302129543917
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "GC",
+      "date": "20220614",
+      "p_value": 0.3826173826173826,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.029957294999345234
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "GC",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.1584654284846765e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "GC",
+      "date": "20220614",
+      "p_value": 0.4745254745254745,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.12010919307698188
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "GC",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -15.040856134403105
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "GC",
+      "date": "20220615",
+      "p_value": 0.7762237762237763,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.06441043642190747
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "GC",
+      "date": "20220615",
+      "p_value": 0.7292707292707292,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.08089425887499305
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "GC",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.9552888988535555e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "GC",
+      "date": "20220615",
+      "p_value": 0.14785214785214784,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 5.5467777099999935
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "GC",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -16.50408523570346
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "GC",
+      "date": "20220616",
+      "p_value": 0.6723276723276723,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.03479103357251757
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "GC",
+      "date": "20220616",
+      "p_value": 0.7182817182817183,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.04779183795587491
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "GC",
+      "date": "20220616",
+      "p_value": 0.986013986013986,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.819801717547497e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "GC",
+      "date": "20220616",
+      "p_value": 0.6283716283716284,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.7409748261538254
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "GC",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -13.104682539682537
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "GC",
+      "date": "20220617",
+      "p_value": 0.9500499500499501,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.10484915017642707
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "GC",
+      "date": "20220617",
+      "p_value": 0.939060939060939,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.11168520971107476
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "GC",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.4569236070972367e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "GC",
+      "date": "20220617",
+      "p_value": 0.25274725274725274,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 1.026945134166468
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "HG",
+      "date": "20220613",
+      "p_value": 0.981018981018981,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.0216417910447766
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "HG",
+      "date": "20220613",
+      "p_value": 0.17082917082917082,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.09035523130470374
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "HG",
+      "date": "20220613",
+      "p_value": 0.6913086913086913,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.08076414889259627
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "HG",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.430223402056808e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "HG",
+      "date": "20220613",
+      "p_value": 0.7012987012987013,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0057550328709690905
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "HG",
+      "date": "20220614",
+      "p_value": 0.4015984015984016,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.17562189054726363
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "HG",
+      "date": "20220614",
+      "p_value": 0.5784215784215784,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.027444199651201696
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "HG",
+      "date": "20220614",
+      "p_value": 0.938061938061938,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.21368947878977243
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "HG",
+      "date": "20220614",
+      "p_value": 0.981018981018981,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.7816275513295995e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "HG",
+      "date": "20220614",
+      "p_value": 0.9560439560439561,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.00697871252458881
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "HG",
+      "date": "20220615",
+      "p_value": 0.9790209790209791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.2407960199004975
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "HG",
+      "date": "20220615",
+      "p_value": 0.7812187812187812,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.1318360221227707
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "HG",
+      "date": "20220615",
+      "p_value": 0.6483516483516484,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.09125145077801622
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "HG",
+      "date": "20220615",
+      "p_value": 0.8711288711288712,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.8371017900891745e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "HG",
+      "date": "20220615",
+      "p_value": 0.44955044955044954,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.0007463189152544986
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "HG",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.8636815920398013
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "HG",
+      "date": "20220616",
+      "p_value": 0.45254745254745254,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.026201202899026842
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "HG",
+      "date": "20220616",
+      "p_value": 0.25874125874125875,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.1690850076499302
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "HG",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.209000697997214e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "HG",
+      "date": "20220616",
+      "p_value": 0.6053946053946054,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0013569356991528512
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "HG",
+      "date": "20220617",
+      "p_value": 0.999000999000999,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.831388888888889
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "HG",
+      "date": "20220617",
+      "p_value": 0.972027972027972,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.23222434225995553
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "HG",
+      "date": "20220617",
+      "p_value": 0.7652347652347652,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.17519838637474636
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "HG",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -6.200284896496705e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "HG",
+      "date": "20220617",
+      "p_value": 0.4985014985014985,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.00024274289999992374
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NG",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -6.9558161573086945
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NG",
+      "date": "20220613",
+      "p_value": 0.0939060939060939,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.6736107369498089
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NG",
+      "date": "20220613",
+      "p_value": 0.06593406593406594,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 1.454894066267787
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NG",
+      "date": "20220613",
+      "p_value": 0.6223776223776224,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.072639207413415e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NG",
+      "date": "20220613",
+      "p_value": 0.8471528471528471,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.07862397956730832
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NG",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -17.446588169338273
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NG",
+      "date": "20220614",
+      "p_value": 0.8141858141858141,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.22287187404609948
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NG",
+      "date": "20220614",
+      "p_value": 0.42857142857142855,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05791343310215359
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NG",
+      "date": "20220614",
+      "p_value": 0.07492507492507493,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 6.0040033378836825e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NG",
+      "date": "20220614",
+      "p_value": 0.9180819180819181,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.5992139267672416
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NG",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.76941213844199
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NG",
+      "date": "20220615",
+      "p_value": 0.027972027972027972,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 0.4504801631283145
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NG",
+      "date": "20220615",
+      "p_value": 0.13686313686313686,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.3892444309587307
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NG",
+      "date": "20220615",
+      "p_value": 0.001998001998001998,
+      "bh_qvalue": 0.21645021645021645,
+      "bh_reject_at_0.05": false,
+      "effect": 8.284627256518648e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NG",
+      "date": "20220615",
+      "p_value": 0.6543456543456544,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.02861415359615277
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NG",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.412842381499097
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NG",
+      "date": "20220616",
+      "p_value": 0.7382617382617382,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.16155702026750512
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NG",
+      "date": "20220616",
+      "p_value": 0.9020979020979021,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.6142587876679444
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NG",
+      "date": "20220616",
+      "p_value": 0.03896103896103896,
+      "bh_qvalue": 0.8441558441558442,
+      "bh_reject_at_0.05": false,
+      "effect": 4.722448525904301e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NG",
+      "date": "20220616",
+      "p_value": 0.7732267732267732,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.03357415967543902
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NG",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -6.982458513708513
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NG",
+      "date": "20220617",
+      "p_value": 0.12387612387612387,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.2962498036698426
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NG",
+      "date": "20220617",
+      "p_value": 0.4985014985014985,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0012808558134802528
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NG",
+      "date": "20220617",
+      "p_value": 0.4835164835164835,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 6.239818918204863e-07
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NG",
+      "date": "20220617",
+      "p_value": 0.4565434565434565,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.008301348740740353
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NQ",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -38.58111989421547
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NQ",
+      "date": "20220613",
+      "p_value": 0.41058941058941056,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.010642094796859784
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NQ",
+      "date": "20220613",
+      "p_value": 0.48451548451548454,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.006406974462362321
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NQ",
+      "date": "20220613",
+      "p_value": 0.5604395604395604,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.552522847575906e-07
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NQ",
+      "date": "20220613",
+      "p_value": 0.5214785214785215,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.16163646923076228
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NQ",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -43.522643726053225
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NQ",
+      "date": "20220614",
+      "p_value": 0.11188811188811189,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.049330585840839145
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NQ",
+      "date": "20220614",
+      "p_value": 0.11988011988011989,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.10392591780978448
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NQ",
+      "date": "20220614",
+      "p_value": 0.9120879120879121,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.643448693467923e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NQ",
+      "date": "20220614",
+      "p_value": 0.15184815184815184,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 139.3568574096154
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NQ",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -44.22633133526233
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NQ",
+      "date": "20220615",
+      "p_value": 0.16983016983016982,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.02724370899679874
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NQ",
+      "date": "20220615",
+      "p_value": 0.10789210789210789,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.07418403563276357
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NQ",
+      "date": "20220615",
+      "p_value": 0.7422577422577422,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.694478628756045e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NQ",
+      "date": "20220615",
+      "p_value": 0.01898101898101898,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 151.78348625576922
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NQ",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -58.92646964297758
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NQ",
+      "date": "20220616",
+      "p_value": 0.24675324675324675,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.028784404598475245
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NQ",
+      "date": "20220616",
+      "p_value": 0.40559440559440557,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.017702299434040787
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NQ",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.230667453660969e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NQ",
+      "date": "20220616",
+      "p_value": 0.9340659340659341,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -54.87571218653846
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "NQ",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -66.50882332049606
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "NQ",
+      "date": "20220617",
+      "p_value": 0.9370629370629371,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.06469634808913255
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "NQ",
+      "date": "20220617",
+      "p_value": 0.8441558441558441,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.07495822139141996
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "NQ",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.3199895049087756e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "NQ",
+      "date": "20220617",
+      "p_value": 0.3806193806193806,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 19.848805339583354
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "RTY",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -21.706437113301455
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "RTY",
+      "date": "20220613",
+      "p_value": 0.1838161838161838,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.17332703945433636
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "RTY",
+      "date": "20220613",
+      "p_value": 0.7312687312687313,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.10434806328641888
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "RTY",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.486447200312075e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "RTY",
+      "date": "20220613",
+      "p_value": 0.16583416583416583,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 17.950877149180247
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "RTY",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -13.605500518933356
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "RTY",
+      "date": "20220614",
+      "p_value": 0.04895104895104895,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 0.19334263502867563
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "RTY",
+      "date": "20220614",
+      "p_value": 0.13586413586413587,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.2519139358202569
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "RTY",
+      "date": "20220614",
+      "p_value": 0.913086913086913,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.698022022267698e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "RTY",
+      "date": "20220614",
+      "p_value": 0.4805194805194805,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -10.797268784166778
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "RTY",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -19.066293891293892
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "RTY",
+      "date": "20220615",
+      "p_value": 0.21478521478521478,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.10709088680801139
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "RTY",
+      "date": "20220615",
+      "p_value": 0.42857142857142855,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.03542903240318888
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "RTY",
+      "date": "20220615",
+      "p_value": 0.4885114885114885,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.1857181225841316e-07
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "RTY",
+      "date": "20220615",
+      "p_value": 0.7482517482517482,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -12.23148872250004
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "RTY",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -32.880508529618275
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "RTY",
+      "date": "20220616",
+      "p_value": 0.21678321678321677,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.076411119202532
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "RTY",
+      "date": "20220616",
+      "p_value": 0.003996003996003996,
+      "bh_qvalue": 0.2597402597402597,
+      "bh_reject_at_0.05": false,
+      "effect": 0.4055424208587537
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "RTY",
+      "date": "20220616",
+      "p_value": 0.9410589410589411,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.776803981145757e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "RTY",
+      "date": "20220616",
+      "p_value": 0.32867132867132864,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 5.2507474841272685
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "RTY",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -23.43133857588939
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "RTY",
+      "date": "20220617",
+      "p_value": 0.8221778221778222,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.09605018100579578
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "RTY",
+      "date": "20220617",
+      "p_value": 0.8041958041958042,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.1370252992814056
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "RTY",
+      "date": "20220617",
+      "p_value": 0.8991008991008991,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.1474131128426377e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "RTY",
+      "date": "20220617",
+      "p_value": 0.8011988011988012,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.138588792373007
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "SI",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.0598673300165835
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "SI",
+      "date": "20220613",
+      "p_value": 0.997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.940015475751341
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "SI",
+      "date": "20220613",
+      "p_value": 0.984015984015984,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.7831742604181892
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "SI",
+      "date": "20220613",
+      "p_value": 0.993006993006993,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.184844170371602e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "SI",
+      "date": "20220613",
+      "p_value": 0.33466533466533466,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.011494083809521613
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "SI",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.19637526652452
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "SI",
+      "date": "20220614",
+      "p_value": 0.5044955044955045,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.00988833217334579
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "SI",
+      "date": "20220614",
+      "p_value": 0.4955044955044955,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.009649787430891725
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "SI",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.476704611764638e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "SI",
+      "date": "20220614",
+      "p_value": 0.31368631368631367,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.010704001706350438
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "SI",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.2962686567164177
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "SI",
+      "date": "20220615",
+      "p_value": 0.3956043956043956,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.07130673012949787
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "SI",
+      "date": "20220615",
+      "p_value": 0.3356643356643357,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.15762808768598602
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "SI",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.7895492140807775e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "SI",
+      "date": "20220615",
+      "p_value": 0.09490509490509491,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.06627724656249878
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "SI",
+      "date": "20220616",
+      "p_value": 0.993006993006993,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.4945273631840794
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "SI",
+      "date": "20220616",
+      "p_value": 0.7682317682317682,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.18369158906650063
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "SI",
+      "date": "20220616",
+      "p_value": 0.8841158841158842,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.41915851972790275
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "SI",
+      "date": "20220616",
+      "p_value": 0.994005994005994,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.8948006370378266e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "SI",
+      "date": "20220616",
+      "p_value": 0.6663336663336663,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.012294203476563351
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "SI",
+      "date": "20220617",
+      "p_value": 0.997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.6458333333333333
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "SI",
+      "date": "20220617",
+      "p_value": 0.8571428571428571,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.35949385384032123
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "SI",
+      "date": "20220617",
+      "p_value": 0.8021978021978022,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.3792979461138188
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "SI",
+      "date": "20220617",
+      "p_value": 0.997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.9326243338377866e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "SI",
+      "date": "20220617",
+      "p_value": 0.023976023976023976,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 0.024797046499999354
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZB",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.513770433546552
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZB",
+      "date": "20220613",
+      "p_value": 0.16983016983016982,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.17580382668856112
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZB",
+      "date": "20220613",
+      "p_value": 0.022977022977022976,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 0.3194644067329709
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZB",
+      "date": "20220613",
+      "p_value": 0.9020979020979021,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.437158002642415e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZB",
+      "date": "20220613",
+      "p_value": 0.7092907092907093,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.10257137163461397
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZB",
+      "date": "20220614",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.610880123193557
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZB",
+      "date": "20220614",
+      "p_value": 0.07492507492507493,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.36736663190457436
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZB",
+      "date": "20220614",
+      "p_value": 0.06493506493506493,
+      "bh_qvalue": 0.9740259740259741,
+      "bh_reject_at_0.05": false,
+      "effect": 0.37695771415421114
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZB",
+      "date": "20220614",
+      "p_value": 0.6803196803196803,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.1093458195724576e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZB",
+      "date": "20220614",
+      "p_value": 0.1978021978021978,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.09449529134615248
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZB",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -11.276817466018521
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZB",
+      "date": "20220615",
+      "p_value": 0.7042957042957043,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.5269784077450921
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZB",
+      "date": "20220615",
+      "p_value": 0.8021978021978022,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.6871332307243505
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZB",
+      "date": "20220615",
+      "p_value": 0.8561438561438561,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.4765495493923537e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZB",
+      "date": "20220615",
+      "p_value": 0.2087912087912088,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.13988146009614874
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZB",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -10.539380478559584
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZB",
+      "date": "20220616",
+      "p_value": 0.5124875124875125,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.010201277483117761
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZB",
+      "date": "20220616",
+      "p_value": 0.38461538461538464,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.06685878573491914
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZB",
+      "date": "20220616",
+      "p_value": 0.983016983016983,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.0458949420462508e-05
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZB",
+      "date": "20220616",
+      "p_value": 0.8781218781218781,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.17898745336539346
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZB",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.119305555555556
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZB",
+      "date": "20220617",
+      "p_value": 0.5464535464535465,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.01149420874717195
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZB",
+      "date": "20220617",
+      "p_value": 0.45254745254745254,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.02078020507591417
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZB",
+      "date": "20220617",
+      "p_value": 0.9110889110889111,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -7.004416633321078e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZB",
+      "date": "20220617",
+      "p_value": 0.1878121878121878,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.25816844895836255
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZF",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.576119402985075
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZF",
+      "date": "20220613",
+      "p_value": 0.7452547452547452,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.08141896498860829
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZF",
+      "date": "20220613",
+      "p_value": 0.7272727272727273,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.08623497837185468
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZF",
+      "date": "20220613",
+      "p_value": 0.1958041958041958,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 3.3174251674243793e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZF",
+      "date": "20220613",
+      "p_value": 0.6703296703296703,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.024155654094827145
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZF",
+      "date": "20220614",
+      "p_value": 0.9790209790209791,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.5009594882729211
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZF",
+      "date": "20220614",
+      "p_value": 0.955044955044955,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.18282232372329935
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZF",
+      "date": "20220614",
+      "p_value": 0.973026973026973,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.18857911326717317
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZF",
+      "date": "20220614",
+      "p_value": 0.5694305694305695,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.5639703014956724e-07
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZF",
+      "date": "20220614",
+      "p_value": 0.03396603396603397,
+      "bh_qvalue": 0.7884972170686456,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05460912797618323
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZF",
+      "date": "20220615",
+      "p_value": 0.996003996003996,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.8035358919687274
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZF",
+      "date": "20220615",
+      "p_value": 0.14885114885114886,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.1894565075444778
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZF",
+      "date": "20220615",
+      "p_value": 0.25374625374625376,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.14391345389599045
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZF",
+      "date": "20220615",
+      "p_value": 0.4905094905094905,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 2.8956464307043943e-07
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZF",
+      "date": "20220615",
+      "p_value": 0.027972027972027972,
+      "bh_qvalue": 0.6993006993006994,
+      "bh_reject_at_0.05": false,
+      "effect": 0.20531936874999024
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZF",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -1.5766169154228855
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZF",
+      "date": "20220616",
+      "p_value": 0.6533466533466533,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.03609317038174947
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZF",
+      "date": "20220616",
+      "p_value": 0.7312687312687313,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.060836203456560496
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZF",
+      "date": "20220616",
+      "p_value": 0.3106893106893107,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 1.4872583539295161e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZF",
+      "date": "20220616",
+      "p_value": 0.5494505494505495,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.007183397245773087
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZF",
+      "date": "20220617",
+      "p_value": 0.965034965034965,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.8752777777777777
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZF",
+      "date": "20220617",
+      "p_value": 0.8781218781218781,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.13600549755754227
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZF",
+      "date": "20220617",
+      "p_value": 0.8421578421578422,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.11975440294765335
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZF",
+      "date": "20220617",
+      "p_value": 0.8721278721278721,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.9696233073519055e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZF",
+      "date": "20220617",
+      "p_value": 0.7322677322677322,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.019269341435181334
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZN",
+      "date": "20220613",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.82917267917268
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZN",
+      "date": "20220613",
+      "p_value": 0.14785214785214784,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.12055352898029416
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZN",
+      "date": "20220613",
+      "p_value": 0.15184815184815184,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.12055352898029416
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZN",
+      "date": "20220613",
+      "p_value": 0.8731268731268731,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -4.903919264200525e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZN",
+      "date": "20220613",
+      "p_value": 0.3066933066933067,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.05488524707032291
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZN",
+      "date": "20220614",
+      "p_value": 0.997002997002997,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -3.386153316004062
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZN",
+      "date": "20220614",
+      "p_value": 0.10789210789210789,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.1770293216379398
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZN",
+      "date": "20220614",
+      "p_value": 0.13186813186813187,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.1672425481852075
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZN",
+      "date": "20220614",
+      "p_value": 0.8271728271728271,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -2.4797349643258073e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZN",
+      "date": "20220614",
+      "p_value": 0.5014985014985015,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.0029750262096844204
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZN",
+      "date": "20220615",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -8.323043208864103
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZN",
+      "date": "20220615",
+      "p_value": 0.5284715284715285,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.02610428023825092
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZN",
+      "date": "20220615",
+      "p_value": 0.5324675324675324,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.01524981021222771
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZN",
+      "date": "20220615",
+      "p_value": 0.08691308691308691,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 7.90458532953456e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZN",
+      "date": "20220615",
+      "p_value": 0.33966033966033965,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.03312987500000638
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZN",
+      "date": "20220616",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.570717839374556
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZN",
+      "date": "20220616",
+      "p_value": 0.23976023976023977,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.09255277168309749
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZN",
+      "date": "20220616",
+      "p_value": 0.1848151848151848,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.13062388178350035
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZN",
+      "date": "20220616",
+      "p_value": 0.998001998001998,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -9.240557345775991e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZN",
+      "date": "20220616",
+      "p_value": 0.7582417582417582,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.05866193028845078
+    },
+    {
+      "hypothesis": "M1_skew",
+      "root": "ZN",
+      "date": "20220617",
+      "p_value": 1.0,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -5.544296475652408
+    },
+    {
+      "hypothesis": "M3_microprice",
+      "root": "ZN",
+      "date": "20220617",
+      "p_value": 0.7052947052947053,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.052747168803213305
+    },
+    {
+      "hypothesis": "M3_integ_ofi",
+      "root": "ZN",
+      "date": "20220617",
+      "p_value": 0.6783216783216783,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": -0.05264051692530095
+    },
+    {
+      "hypothesis": "M6_realised_spread",
+      "root": "ZN",
+      "date": "20220617",
+      "p_value": 0.33766233766233766,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 1.3111329535371843e-06
+    },
+    {
+      "hypothesis": "M6_zero_fee_skill",
+      "root": "ZN",
+      "date": "20220617",
+      "p_value": 0.10589410589410589,
+      "bh_qvalue": 1.0,
+      "bh_reject_at_0.05": false,
+      "effect": 0.03572232650862272
+    }
+  ],
+  "n_bh_significant": 0,
+  "tidy_csv": "runs/mm_full_jun2022/ASSEMBLY_tidy.csv"
+}

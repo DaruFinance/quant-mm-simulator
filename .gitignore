@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.venv/
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+# Outputs
+*.log
+docs/baselines/_local_*
+# Local data — fixtures under tests/fixtures/ are part of the parity contract;
+# raw captures and licensed vendor staging stay out.
+data/raw/
+data/captures/
+data/_stage/
+data/eq_taq_smoke/
+# Local data artifacts
+runs/
+
+# H6 multi-venue/DEX portfolio strand — separate unpublished work, excluded from this repo
+scripts/h6_*.py
+mmsim/research/portfolio.py
+scripts/tn395_robustness.py

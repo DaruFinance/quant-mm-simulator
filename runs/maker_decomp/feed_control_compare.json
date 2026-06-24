@@ -1,0 +1,26 @@
+{
+  "control_dates": [
+    "20230710",
+    "20230711",
+    "20230712",
+    "20230713",
+    "20230714"
+  ],
+  "n_matched_rootdays": 60,
+  "hires_feed": {
+    "spread": 0.594,
+    "adverse": -0.5908,
+    "net_after_fee": -0.0118,
+    "adverse_over_capture_pct": 99.47,
+    "n_fills": 169578
+  },
+  "coarse_feed": {
+    "spread": 0.4852,
+    "adverse": -0.3982,
+    "net_after_fee": 0.072,
+    "adverse_over_capture_pct": 82.07,
+    "n_fills": 214597
+  },
+  "ratio_gap_pp": 17.4,
+  "note": "Same Jul-2023 calm dates/roots/regime; only the time resolution of the book reconstruction differs (high- vs coarser-resolution). Any adverse/capture gap is attributable to the reconstruction, not regime or volatility."
+}

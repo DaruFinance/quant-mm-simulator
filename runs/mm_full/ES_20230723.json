@@ -1,0 +1,120 @@
+{
+  "root": "ES",
+  "date": "20230723",
+  "symbol": "ESU3",
+  "n_windows": 8,
+  "is_min": 60.0,
+  "oos_min": 20.0,
+  "throttle_k": 5,
+  "wall_s": 1.2,
+  "peak_rss_gb": 0.35,
+  "cost_model": {
+    "maker_fee_bp": 0.015000000000000001,
+    "maker_rebate_bp": 0.0,
+    "maker_net_fee_bp": 0.015000000000000001,
+    "maker_pays_slippage": false,
+    "taker_bp": 0.2,
+    "taker_slip_bp": 0.2,
+    "note": "maker fills capture spread (in gross mark-to-mid) + pay maker_net_fee, NO slippage; adverse selection in markout"
+  },
+  "oos_pooled": {
+    "n_fills": 78,
+    "mean_realised_bp": -0.13692936769350014,
+    "mean_markout_bp": 0.13692936769350014,
+    "maker_net_edge_bp": 0.12192936769350014
+  },
+  "M1_inventory_skew": {
+    "n_windows": 8,
+    "mean_cvar_reduction": 4.0,
+    "mean_pnl_diff_skew_minus_sym": 0.4654934062500006,
+    "perm_null": {
+      "observed": 4.0,
+      "null_q95": 4.25,
+      "p_value": 0.1018981018981019,
+      "m": 1000,
+      "n": 8
+    }
+  },
+  "M3_microprice_ofi": {
+    "n_windows_mp": 3,
+    "mean_mp_minus_base_bp": -0.4648126878930279,
+    "mean_ofi_minus_base_bp": -0.4648126878930279,
+    "perm_null_microprice": {
+      "observed": -0.4648126878930279,
+      "null_q95": 0.5196152168524185,
+      "p_value": 0.8981018981018981,
+      "m": 1000,
+      "n": 3
+    },
+    "perm_null_integrated_ofi": {
+      "observed": -0.4648126878930279,
+      "null_q95": 0.5196152168524185,
+      "p_value": 0.8811188811188811,
+      "m": 1000,
+      "n": 3
+    }
+  },
+  "M4_fill_calibration": {
+    "frac_windows_monotone": 1.0,
+    "mean_brier_analytic": 0.00020736998675551798,
+    "mean_brier_learned": 0.00020720138671483074,
+    "mean_logloss_analytic": 0.0016713447033630015,
+    "mean_logloss_learned": 0.0014821319324926092,
+    "learned_beats_analytic_brier": true
+  },
+  "M6_pnl_decomposition": {
+    "mean_window_net_pnl": 3.536035625,
+    "mean_window_fees": 0.08896437499999998,
+    "perm_null_zero_fee_skill": {
+      "observed": 3.536035625,
+      "null_q95": 5.597004708333333,
+      "p_value": 0.21678321678321677,
+      "m": 1000,
+      "n": 6
+    },
+    "rebate": "NONE (futures)",
+    "realised_spread_perm_null": {
+      "observed": -1.3692936769350013e-05,
+      "null_q95": 8.7786576485148e-06,
+      "p_value": 0.995004995004995,
+      "m": 1000,
+      "n": 78
+    }
+  },
+  "M7_queue_rank_economics": {
+    "mean_markout_by_rank_bp": [
+      -0.013851159401526026,
+      0.8214901831923109,
+      null,
+      null,
+      null
+    ]
+  },
+  "M8_true_vs_inferred_sign": {
+    "n_trades": 4148,
+    "true_buy_share": 0.3982642237222758,
+    "tick_accuracy": 0.7601253616200578,
+    "quote_accuracy": 0.9963636363636363,
+    "tick_buy_share": 0.46311475409836067
+  },
+  "M9_latency_cliff": {
+    "mean_realised_bp_by_latency_ms": {
+      "0.0": -0.3073982575050544,
+      "1.0": -0.30739193506332313,
+      "5.0": -0.30739166465847184,
+      "10.0": -0.30738724936786826,
+      "50.0": -0.30738647857845497,
+      "100.0": -0.33780870871045693,
+      "500.0": -0.29929698667082016
+    },
+    "latencies_ms": [
+      0.0,
+      1.0,
+      5.0,
+      10.0,
+      50.0,
+      100.0,
+      500.0
+    ]
+  }
+}

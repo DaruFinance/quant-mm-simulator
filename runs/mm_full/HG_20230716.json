@@ -1,0 +1,96 @@
+{
+  "root": "HG",
+  "date": "20230716",
+  "symbol": "HGU3",
+  "n_windows": 7,
+  "is_min": 60.0,
+  "oos_min": 20.0,
+  "throttle_k": 5,
+  "wall_s": 0.8,
+  "peak_rss_gb": 0.27,
+  "cost_model": {
+    "maker_fee_bp": 0.015000000000000001,
+    "maker_rebate_bp": 0.0,
+    "maker_net_fee_bp": 0.015000000000000001,
+    "maker_pays_slippage": false,
+    "taker_bp": 0.2,
+    "taker_slip_bp": 0.2,
+    "note": "maker fills capture spread (in gross mark-to-mid) + pay maker_net_fee, NO slippage; adverse selection in markout"
+  },
+  "oos_pooled": {
+    "n_fills": 0,
+    "mean_realised_bp": null,
+    "mean_markout_bp": null,
+    "maker_net_edge_bp": null
+  },
+  "M1_inventory_skew": {
+    "n_windows": 7,
+    "mean_cvar_reduction": 0.0,
+    "mean_pnl_diff_skew_minus_sym": 0.0,
+    "perm_null": {
+      "observed": 0.0,
+      "null_q95": 0.0,
+      "p_value": 1.0,
+      "m": 1000,
+      "n": 7
+    }
+  },
+  "M3_microprice_ofi": {
+    "n_windows_mp": 0,
+    "mean_mp_minus_base_bp": null,
+    "mean_ofi_minus_base_bp": null,
+    "perm_null_microprice": null,
+    "perm_null_integrated_ofi": null
+  },
+  "M4_fill_calibration": {
+    "frac_windows_monotone": 1.0,
+    "mean_brier_analytic": 2.6640625e-19,
+    "mean_brier_learned": 4.690734421647949e-19,
+    "mean_logloss_analytic": 3.875000099906364e-10,
+    "mean_logloss_learned": 3.834005179176732e-10,
+    "learned_beats_analytic_brier": false
+  },
+  "M6_pnl_decomposition": {
+    "mean_window_net_pnl": null,
+    "mean_window_fees": null,
+    "perm_null_zero_fee_skill": null,
+    "rebate": "NONE (futures)",
+    "realised_spread_perm_null": null
+  },
+  "M7_queue_rank_economics": {
+    "mean_markout_by_rank_bp": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "M8_true_vs_inferred_sign": {
+    "n_trades": 261,
+    "true_buy_share": 0.5172413793103449,
+    "tick_accuracy": 0.7509578544061303,
+    "quote_accuracy": 0.8928571428571429,
+    "tick_buy_share": 0.4521072796934866
+  },
+  "M9_latency_cliff": {
+    "mean_realised_bp_by_latency_ms": {
+      "0.0": NaN,
+      "1.0": NaN,
+      "5.0": NaN,
+      "10.0": NaN,
+      "50.0": NaN,
+      "100.0": NaN,
+      "500.0": NaN
+    },
+    "latencies_ms": [
+      0.0,
+      1.0,
+      5.0,
+      10.0,
+      50.0,
+      100.0,
+      500.0
+    ]
+  }
+}

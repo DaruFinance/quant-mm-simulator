@@ -1,0 +1,97 @@
+{
+  "episodes": [
+    {
+      "key": "calm2023_hires",
+      "label": "2023 calm (hires)",
+      "feed": "hires",
+      "n_fills": 353387,
+      "spread_capture_bp": 0.6536,
+      "adverse_select_bp": -0.6609,
+      "net_after_fee_bp": -0.0223,
+      "adverse_over_capture_pct": 101.12,
+      "rv_10s_bp": 1.0418
+    },
+    {
+      "key": "2021calm",
+      "label": "2021 calm",
+      "feed": "coarse",
+      "n_fills": 200014,
+      "spread_capture_bp": 0.4383,
+      "adverse_select_bp": -0.3662,
+      "net_after_fee_bp": 0.0571,
+      "adverse_over_capture_pct": 83.55,
+      "rv_10s_bp": 1.1043
+    },
+    {
+      "key": "coarsectrl2023",
+      "label": "2023 calm (coarse ctrl)",
+      "feed": "coarse",
+      "n_fills": 233259,
+      "spread_capture_bp": 0.464,
+      "adverse_select_bp": -0.3795,
+      "net_after_fee_bp": 0.0695,
+      "adverse_over_capture_pct": 81.79,
+      "rv_10s_bp": 1.1111
+    },
+    {
+      "key": "svb2023",
+      "label": "2023 SVB",
+      "feed": "coarse",
+      "n_fills": 418712,
+      "spread_capture_bp": 0.5214,
+      "adverse_select_bp": -0.4123,
+      "net_after_fee_bp": 0.0941,
+      "adverse_over_capture_pct": 79.08,
+      "rv_10s_bp": 2.1255
+    },
+    {
+      "key": "fomc2022",
+      "label": "2022 FOMC",
+      "feed": "coarse",
+      "n_fills": 338194,
+      "spread_capture_bp": 0.5165,
+      "adverse_select_bp": -0.4522,
+      "net_after_fee_bp": 0.0493,
+      "adverse_over_capture_pct": 87.56,
+      "rv_10s_bp": 2.4717
+    },
+    {
+      "key": "covid2020",
+      "label": "2020 COVID",
+      "feed": "coarse",
+      "n_fills": 552910,
+      "spread_capture_bp": 1.1036,
+      "adverse_select_bp": -0.9069,
+      "net_after_fee_bp": 0.1818,
+      "adverse_over_capture_pct": 82.17,
+      "rv_10s_bp": 7.3266
+    }
+  ],
+  "feed_control": {
+    "control_dates": [
+      "20230710",
+      "20230711",
+      "20230712",
+      "20230713",
+      "20230714"
+    ],
+    "n_matched_rootdays": 60,
+    "hires_feed": {
+      "spread": 0.594,
+      "adverse": -0.5908,
+      "net_after_fee": -0.0118,
+      "adverse_over_capture_pct": 99.47,
+      "n_fills": 169578
+    },
+    "coarse_feed": {
+      "spread": 0.4852,
+      "adverse": -0.3982,
+      "net_after_fee": 0.072,
+      "adverse_over_capture_pct": 82.07,
+      "n_fills": 214597
+    },
+    "ratio_gap_pp": 17.4,
+    "note": "Same Jul-2023 calm dates/roots/regime; only the time resolution of the book reconstruction differs (high- vs coarser-resolution). Any adverse/capture gap is attributable to the reconstruction, not regime or volatility."
+  },
+  "note": "Adverse/capture ratio (|adverse|/capture, 10s, fill-weighted). The high- and coarse-resolution reconstructions are not comparable (control: ~17pp gap on identical dates). Within the coarse reconstruction the ratio is flat ~79-88% across sigma_tau 1.0-7.3."
+}

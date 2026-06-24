@@ -1,0 +1,10 @@
+{
+  "fixture": "real CME root-day full scale (20210712_snap.parquet)",
+  "n_events": 1252384,
+  "n_fills": 3030,
+  "fast_numba_sec": 3.971,
+  "reference_python_sec": 327.812,
+  "speedup_x": 82.6,
+  "parity_fills_ok": true,
+  "note": "fast = min of 3 (numba JIT warmed up); reference = single run of mmsim.sim.loop.run_sim (deterministic; concurrent load only inflates it). Single-thread, OPENBLAS_NUM_THREADS=1."
+}

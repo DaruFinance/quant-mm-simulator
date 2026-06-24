@@ -1,0 +1,87 @@
+{
+ "R1_horizon": {
+  "full_10s": -0.0355,
+  "full_60s": -0.0394,
+  "drivers_10s": -0.0652,
+  "drivers_60s": -0.0613,
+  "nondrivers_10s": -0.0029,
+  "nondrivers_60s": -0.0153
+ },
+ "R2_per_driver_sig": {
+  "NG": {
+   "slope": -0.0954,
+   "ci": [
+    -0.1095,
+    -0.0815
+   ],
+   "n": 2364,
+   "excludes_0": true
+  },
+  "HG": {
+   "slope": -0.1351,
+   "ci": [
+    -0.2537,
+    -0.0464
+   ],
+   "n": 2652,
+   "excludes_0": true
+  },
+  "CL": {
+   "slope": -0.0346,
+   "ci": [
+    -0.0573,
+    -0.0047
+   ],
+   "n": 2664,
+   "excludes_0": true
+  },
+  "6E": {
+   "slope": -0.0506,
+   "ci": [
+    -0.0656,
+    -0.0354
+   ],
+   "n": 2658,
+   "excludes_0": true
+  },
+  "6J": {
+   "slope": -0.0313,
+   "ci": [
+    -0.0583,
+    -0.0049
+   ],
+   "n": 2664,
+   "excludes_0": true
+  }
+ },
+ "R2_n_significant": 5,
+ "R3_time_stability": {
+  "NG": {
+   "h1": -0.0698,
+   "h2": -0.1025,
+   "both_neg": true
+  },
+  "HG": {
+   "h1": -0.0496,
+   "h2": -0.3667,
+   "both_neg": true
+  },
+  "CL": {
+   "h1": -0.0365,
+   "h2": -0.0334,
+   "both_neg": true
+  },
+  "6E": {
+   "h1": -0.0584,
+   "h2": -0.0398,
+   "both_neg": true
+  },
+  "6J": {
+   "h1": -0.0933,
+   "h2": -0.0179,
+   "both_neg": true
+  }
+ },
+ "R3_split_date": 20210407,
+ "R3_all_drivers_both_neg": true
+}

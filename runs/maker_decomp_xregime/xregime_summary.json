@@ -1,0 +1,69 @@
+{
+  "commensurability": {
+    "taq": {
+      "capture": 0.6763,
+      "adverse": -0.6737,
+      "ratio_pct": 99.61,
+      "net_after_fee": -0.0123,
+      "n_rootdays": 52,
+      "n_fills": 142278
+    },
+    "depth": {
+      "capture": 0.6664,
+      "adverse": -0.662,
+      "ratio_pct": 99.34,
+      "net_after_fee": -0.0106,
+      "n_rootdays": 52,
+      "n_fills": 142505
+    },
+    "per_rootday_abs_diff_bp": {
+      "capture_med": 0.0098,
+      "capture_max": 0.2434,
+      "adverse_med": 0.0171,
+      "net_med": 0.0175,
+      "net_max": 0.1614
+    }
+  },
+  "table2": [
+    {
+      "episode": "2023 calm (Jul-Oct)",
+      "feed": "depth-10",
+      "sigma_tau": 1.0,
+      "n_fills": 353387,
+      "capture": 0.654,
+      "adverse": -0.661,
+      "ratio_pct": 101.1,
+      "net_after_fee": -0.022
+    },
+    {
+      "episode": "2020covid",
+      "feed": "nanosec TAQ",
+      "sigma_tau": 6.82,
+      "n_fills": 362014,
+      "capture": 1.265,
+      "adverse": -1.389,
+      "ratio_pct": 109.8,
+      "net_after_fee": -0.139
+    },
+    {
+      "episode": "2022fomc",
+      "feed": "nanosec TAQ",
+      "sigma_tau": 2.53,
+      "n_fills": 289248,
+      "capture": 0.629,
+      "adverse": -0.701,
+      "ratio_pct": 111.5,
+      "net_after_fee": -0.087
+    },
+    {
+      "episode": "2023svb",
+      "feed": "nanosec TAQ",
+      "sigma_tau": 2.08,
+      "n_fills": 383088,
+      "capture": 0.616,
+      "adverse": -0.647,
+      "ratio_pct": 105.1,
+      "net_after_fee": -0.046
+    }
+  ]
+}

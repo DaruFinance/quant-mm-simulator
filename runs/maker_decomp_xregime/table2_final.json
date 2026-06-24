@@ -1,0 +1,38 @@
+[
+  {
+    "episode": "2023 SVB (Mar)",
+    "sigma": 2.08,
+    "nf": 383088,
+    "cap": 0.616,
+    "adv": -0.647,
+    "ratio": 105.1,
+    "med_ratio": 105.9,
+    "net": -0.046,
+    "med_net": -0.038,
+    "roots_neg": 10
+  },
+  {
+    "episode": "2022 FOMC (Jun)",
+    "sigma": 2.53,
+    "nf": 289248,
+    "cap": 0.629,
+    "adv": -0.701,
+    "ratio": 111.5,
+    "med_ratio": 104.4,
+    "net": -0.087,
+    "med_net": -0.047,
+    "roots_neg": 9
+  },
+  {
+    "episode": "2020 COVID (Mar)",
+    "sigma": 6.82,
+    "nf": 362014,
+    "cap": 1.265,
+    "adv": -1.389,
+    "ratio": 109.8,
+    "med_ratio": 104.0,
+    "net": -0.139,
+    "med_net": -0.088,
+    "roots_neg": 11
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "method": "root-day cluster bootstrap, B=10000, seed=20260618, fill-weighted, 10s",
+  "note": "Same procedure as runs/maker_decomp/decomp_bootstrap_ci.json (calm headline). Resampling unit is the root-day; ratio = fill-weighted adverse/captured.",
+  "calm_parity_check": {
+    "n_rootdays": 232,
+    "n_fills": 353387,
+    "capture_bp": 0.6536,
+    "adverse_bp": -0.6609,
+    "adverse_over_capture_pct": {
+      "point": 101.12,
+      "ci95": [
+        97.6334,
+        104.6958
+      ],
+      "excludes_100": false
+    },
+    "net_after_fee_bp": {
+      "point": -0.0223,
+      "ci95": [
+        -0.0458,
+        0.0008
+      ],
+      "excludes_0": false,
+      "p_negative": 0.971
+    }
+  },
+  "calm_published": {
+    "adverse_over_capture_pct": {
+      "point": 101.1,
+      "ci95": [
+        97.7,
+        104.7
+      ]
+    },
+    "net_after_fee_bp": {
+      "point": -0.0223,
+      "ci95": [
+        -0.0458,
+        0.0008
+      ]
+    }
+  },
+  "stress": {
+    "2023svb": {
+      "n_rootdays": 65,
+      "n_fills": 383088,
+      "capture_bp": 0.6156,
+      "adverse_bp": -0.6468,
+      "adverse_over_capture_pct": {
+        "point": 105.07,
+        "ci95": [
+          100.723,
+          109.5968
+        ],
+        "excludes_100": true
+      },
+      "net_after_fee_bp": {
+        "point": -0.0462,
+        "ci95": [
+          -0.0695,
+          -0.0198
+        ],
+        "excludes_0": true,
+        "p_negative": 0.999
+      },
+      "episode": "2023 SVB (Mar)"
+    },
+    "2022fomc": {
+      "n_rootdays": 65,
+      "n_fills": 289248,
+      "capture_bp": 0.6292,
+      "adverse_bp": -0.7014,
+      "adverse_over_capture_pct": {
+        "point": 111.47,
+        "ci95": [
+          102.81,
+          120.4318
+        ],
+        "excludes_100": true
+      },
+      "net_after_fee_bp": {
+        "point": -0.0872,
+        "ci95": [
+          -0.1774,
+          -0.0296
+        ],
+        "excludes_0": true,
+        "p_negative": 1.0
+      },
+      "episode": "2022 FOMC (Jun)"
+    },
+    "2020covid": {
+      "n_rootdays": 65,
+      "n_fills": 362014,
+      "capture_bp": 1.2649,
+      "adverse_bp": -1.3889,
+      "adverse_over_capture_pct": {
+        "point": 109.8,
+        "ci95": [
+          102.7469,
+          116.8308
+        ],
+        "excludes_100": true
+      },
+      "net_after_fee_bp": {
+        "point": -0.1389,
+        "ci95": [
+          -0.2228,
+          -0.0494
+        ],
+        "excludes_0": true,
+        "p_negative": 0.999
+      },
+      "episode": "2020 COVID (Mar)"
+    }
+  }
+}

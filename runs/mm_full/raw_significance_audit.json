@@ -1,0 +1,37 @@
+{
+  "note": "Raw (uncorrected p<0.05) significance audit of the 1126-cell quoting grid, to support leading the null on raw effect sizes rather than on BH/BHY (which is permutation-floor-bound). The Avellaneda-Stoikov inventory-skew family (M1) has 0 raw-significant cells before any correction. The only raw-significant cells are zero-magnitude spread diagnostics (M6 realised spread, ~1e-5 bp) or gross / pre-cost quantities (M6 zero-fee skill; M3 microprice/integrated-OFI gross signals) that the cost-frontier analysis kills (the OFI signal turns from +0.11 bp gross to -1.30 bp net).",
+  "total_cells": 1126,
+  "n_raw_significant_uncorrected_p05": 103,
+  "by_hypothesis": {
+    "M1_skew": {
+      "n_cells": 234,
+      "n_raw_sig_p05": 0,
+      "raw_sig_abs_effect_median": null,
+      "raw_sig_abs_effect_max": null
+    },
+    "M6_realised_spread": {
+      "n_cells": 231,
+      "n_raw_sig_p05": 43,
+      "raw_sig_abs_effect_median": 1.3004945866237022e-05,
+      "raw_sig_abs_effect_max": 0.000642935646810322
+    },
+    "M6_zero_fee_skill": {
+      "n_cells": 231,
+      "n_raw_sig_p05": 15,
+      "raw_sig_abs_effect_median": 0.03921562607142659,
+      "raw_sig_abs_effect_max": 35.966437025
+    },
+    "M3_microprice": {
+      "n_cells": 217,
+      "n_raw_sig_p05": 20,
+      "raw_sig_abs_effect_median": 0.2309668700158226,
+      "raw_sig_abs_effect_max": 1.0477563281363282
+    },
+    "M3_integ_ofi": {
+      "n_cells": 213,
+      "n_raw_sig_p05": 25,
+      "raw_sig_abs_effect_median": 0.22272491792638352,
+      "raw_sig_abs_effect_max": 1.049515221549359
+    }
+  }
+}

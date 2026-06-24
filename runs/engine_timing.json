@@ -1,0 +1,12 @@
+{
+  "fixture": "lob_btcusdt_60min (bundled BTC depth book + tape)",
+  "n_events": 535876,
+  "n_fills": 1823,
+  "quoter": "touch",
+  "repeats": 3,
+  "reference_python_sec": 1.7829,
+  "fast_numba_sec": 0.3513,
+  "speedup_x": 5.1,
+  "parity_ok": true,
+  "note": "min-of-N wall clock, numba JIT warmed up before timing; single-thread (OPENBLAS_NUM_THREADS=1). Reference = mmsim.sim.loop.run_sim; fast = mmsim.sim.fast_sim.simulate."
+}

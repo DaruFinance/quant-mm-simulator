@@ -1,0 +1,232 @@
+{
+  "n_rootdays": 255,
+  "tol": 0.05,
+  "n_align_fail": 0,
+  "n_band_fail": 20,
+  "max_rel_err": 0.0086,
+  "align_fails": [],
+  "band_fails": [
+    {
+      "episode": "fut_universe_2023svb",
+      "root": "6J",
+      "date": "20230313",
+      "symbol": "6JM3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.76145,
+      "snap_mid_scaled": 0.76125,
+      "rel_err": 0.0003,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023svb",
+      "root": "6J",
+      "date": "20230314",
+      "symbol": "6JM3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.7563,
+      "snap_mid_scaled": 0.756225,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023svb",
+      "root": "6J",
+      "date": "20230315",
+      "symbol": "6JM3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.7604,
+      "snap_mid_scaled": 0.760275,
+      "rel_err": 0.0002,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023svb",
+      "root": "6J",
+      "date": "20230316",
+      "symbol": "6JM3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.76355,
+      "snap_mid_scaled": 0.7635,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023svb",
+      "root": "6J",
+      "date": "20230317",
+      "symbol": "6JM3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.76575,
+      "snap_mid_scaled": 0.765675,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2020covid",
+      "root": "6J",
+      "date": "20200316",
+      "symbol": "6JM0",
+      "scale_applied": "0.01",
+      "taq_mid": 0.94765,
+      "snap_mid_scaled": 0.947925,
+      "rel_err": 0.0003,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2020covid",
+      "root": "6J",
+      "date": "20200317",
+      "symbol": "6JM0",
+      "scale_applied": "0.01",
+      "taq_mid": 0.9407,
+      "snap_mid_scaled": 0.9407,
+      "rel_err": 0.0,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2020covid",
+      "root": "6J",
+      "date": "20200318",
+      "symbol": "6JM0",
+      "scale_applied": "0.01",
+      "taq_mid": 0.93175,
+      "snap_mid_scaled": 0.931725,
+      "rel_err": 0.0,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2020covid",
+      "root": "6J",
+      "date": "20200319",
+      "symbol": "6JM0",
+      "scale_applied": "0.01",
+      "taq_mid": 0.91805,
+      "snap_mid_scaled": 0.9172,
+      "rel_err": 0.0009,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2020covid",
+      "root": "6J",
+      "date": "20200320",
+      "symbol": "6JM0",
+      "scale_applied": "0.01",
+      "taq_mid": 0.90795,
+      "snap_mid_scaled": 0.9065,
+      "rel_err": 0.0016,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2021calm",
+      "root": "6J",
+      "date": "20210712",
+      "symbol": "6JU1",
+      "scale_applied": "0.01",
+      "taq_mid": 0.9078,
+      "snap_mid_scaled": 0.907975,
+      "rel_err": 0.0002,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2021calm",
+      "root": "6J",
+      "date": "20210713",
+      "symbol": "6JU1",
+      "scale_applied": "0.01",
+      "taq_mid": 0.9062,
+      "snap_mid_scaled": 0.9063,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2021calm",
+      "root": "6J",
+      "date": "20210714",
+      "symbol": "6JU1",
+      "scale_applied": "0.01",
+      "taq_mid": 0.90785,
+      "snap_mid_scaled": 0.907425,
+      "rel_err": 0.0005,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2021calm",
+      "root": "6J",
+      "date": "20210715",
+      "symbol": "6JU1",
+      "scale_applied": "0.01",
+      "taq_mid": 0.91035,
+      "snap_mid_scaled": 0.910325,
+      "rel_err": 0.0,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2021calm",
+      "root": "6J",
+      "date": "20210716",
+      "symbol": "6JU1",
+      "scale_applied": "0.01",
+      "taq_mid": 0.9085,
+      "snap_mid_scaled": 0.908525,
+      "rel_err": 0.0,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023coarsectrl",
+      "root": "6J",
+      "date": "20230710",
+      "symbol": "6JU3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.71005,
+      "snap_mid_scaled": 0.710125,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023coarsectrl",
+      "root": "6J",
+      "date": "20230711",
+      "symbol": "6JU3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.71865,
+      "snap_mid_scaled": 0.718775,
+      "rel_err": 0.0002,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023coarsectrl",
+      "root": "6J",
+      "date": "20230712",
+      "symbol": "6JU3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.726,
+      "snap_mid_scaled": 0.72545,
+      "rel_err": 0.0008,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023coarsectrl",
+      "root": "6J",
+      "date": "20230713",
+      "symbol": "6JU3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.7297,
+      "snap_mid_scaled": 0.729625,
+      "rel_err": 0.0001,
+      "in_band": false
+    },
+    {
+      "episode": "fut_universe_2023coarsectrl",
+      "root": "6J",
+      "date": "20230714",
+      "symbol": "6JU3",
+      "scale_applied": "0.01",
+      "taq_mid": 0.7295,
+      "snap_mid_scaled": 0.729325,
+      "rel_err": 0.0002,
+      "in_band": false
+    }
+  ],
+  "verdict": "PASS",
+  "band_advisory": "20 band-only flags (roots: ['6J']); these align perfectly (rel_err~0), the hardcoded sanity band did not match the quoting convention"
+}

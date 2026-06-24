@@ -1,0 +1,235 @@
+{
+  "maker_fee_bp": 0.015,
+  "axes": {
+    "session": [
+      "open",
+      "mid"
+    ],
+    "regime": [
+      "calm",
+      "hivol"
+    ],
+    "open_minutes": 60,
+    "hmm_K": 4,
+    "hmm_train_minutes": 60,
+    "regime_label": "online causal forward-filtered (no lookahead)"
+  },
+  "n_rootdays_used": 232,
+  "n_rootdays_regime_undefined": 0,
+  "n_cells": 52,
+  "pooled_cells": {
+    "open_calm": {
+      "n_fills": 3751,
+      "spread_capture_bp": 0.7286,
+      "adverse_select_bp": -0.6668,
+      "net_markout_bp": 0.0618,
+      "net_after_fee_bp": 0.0468
+    },
+    "open_hivol": {
+      "n_fills": 2739,
+      "spread_capture_bp": 0.7225,
+      "adverse_select_bp": -0.7636,
+      "net_markout_bp": -0.0411,
+      "net_after_fee_bp": -0.0561
+    },
+    "mid_calm": {
+      "n_fills": 271903,
+      "spread_capture_bp": 0.6561,
+      "adverse_select_bp": -0.6702,
+      "net_markout_bp": -0.0141,
+      "net_after_fee_bp": -0.0291
+    },
+    "mid_hivol": {
+      "n_fills": 74994,
+      "spread_capture_bp": 0.6383,
+      "adverse_select_bp": -0.6233,
+      "net_markout_bp": 0.015,
+      "net_after_fee_bp": 0.0
+    }
+  },
+  "hivol_open_cells": [
+    {
+      "root": "NG",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 111,
+      "spread_capture_bp": 4.4414,
+      "adverse_select_bp": -4.0267,
+      "net_markout_bp": 0.4147,
+      "net_after_fee_bp": 0.3997
+    },
+    {
+      "root": "CL",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 248,
+      "spread_capture_bp": 1.5034,
+      "adverse_select_bp": -1.333,
+      "net_markout_bp": 0.1704,
+      "net_after_fee_bp": 0.1554
+    },
+    {
+      "root": "NQ",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 374,
+      "spread_capture_bp": 0.1671,
+      "adverse_select_bp": -0.0835,
+      "net_markout_bp": 0.0836,
+      "net_after_fee_bp": 0.0686
+    },
+    {
+      "root": "6E",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 55,
+      "spread_capture_bp": 0.2775,
+      "adverse_select_bp": -0.1961,
+      "net_markout_bp": 0.0814,
+      "net_after_fee_bp": 0.0664
+    },
+    {
+      "root": "GC",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 128,
+      "spread_capture_bp": 0.2981,
+      "adverse_select_bp": -0.2826,
+      "net_markout_bp": 0.0155,
+      "net_after_fee_bp": 0.0005
+    },
+    {
+      "root": "6J",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 158,
+      "spread_capture_bp": 0.4233,
+      "adverse_select_bp": -0.4246,
+      "net_markout_bp": -0.0013,
+      "net_after_fee_bp": -0.0163
+    },
+    {
+      "root": "ZF",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 359,
+      "spread_capture_bp": 0.4188,
+      "adverse_select_bp": -0.4231,
+      "net_markout_bp": -0.0043,
+      "net_after_fee_bp": -0.0193
+    },
+    {
+      "root": "ES",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 658,
+      "spread_capture_bp": 0.2818,
+      "adverse_select_bp": -0.3195,
+      "net_markout_bp": -0.0377,
+      "net_after_fee_bp": -0.0527
+    },
+    {
+      "root": "ZN",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 217,
+      "spread_capture_bp": 0.8369,
+      "adverse_select_bp": -0.9747,
+      "net_markout_bp": -0.1379,
+      "net_after_fee_bp": -0.1529
+    },
+    {
+      "root": "HG",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 128,
+      "spread_capture_bp": 0.939,
+      "adverse_select_bp": -1.1189,
+      "net_markout_bp": -0.1799,
+      "net_after_fee_bp": -0.1949
+    },
+    {
+      "root": "ZB",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 115,
+      "spread_capture_bp": 1.4451,
+      "adverse_select_bp": -1.832,
+      "net_markout_bp": -0.3869,
+      "net_after_fee_bp": -0.4019
+    },
+    {
+      "root": "RTY",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 122,
+      "spread_capture_bp": 0.3815,
+      "adverse_select_bp": -0.8056,
+      "net_markout_bp": -0.4241,
+      "net_after_fee_bp": -0.4391
+    },
+    {
+      "root": "SI",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 66,
+      "spread_capture_bp": 1.2135,
+      "adverse_select_bp": -2.1636,
+      "net_markout_bp": -0.9501,
+      "net_after_fee_bp": -0.9651
+    }
+  ],
+  "hivol_open_survivors_net_after_fee_pos": [
+    {
+      "root": "NG",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 111,
+      "spread_capture_bp": 4.4414,
+      "adverse_select_bp": -4.0267,
+      "net_markout_bp": 0.4147,
+      "net_after_fee_bp": 0.3997
+    },
+    {
+      "root": "CL",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 248,
+      "spread_capture_bp": 1.5034,
+      "adverse_select_bp": -1.333,
+      "net_markout_bp": 0.1704,
+      "net_after_fee_bp": 0.1554
+    },
+    {
+      "root": "NQ",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 374,
+      "spread_capture_bp": 0.1671,
+      "adverse_select_bp": -0.0835,
+      "net_markout_bp": 0.0836,
+      "net_after_fee_bp": 0.0686
+    },
+    {
+      "root": "6E",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 55,
+      "spread_capture_bp": 0.2775,
+      "adverse_select_bp": -0.1961,
+      "net_markout_bp": 0.0814,
+      "net_after_fee_bp": 0.0664
+    },
+    {
+      "root": "GC",
+      "session": "open",
+      "regime": "hivol",
+      "n_fills": 128,
+      "spread_capture_bp": 0.2981,
+      "adverse_select_bp": -0.2826,
+      "net_markout_bp": 0.0155,
+      "net_after_fee_bp": 0.0005
+    }
+  ],
+  "honesty": "Survivors are an EXPLORATORY SENSITIVITY (a slice of the already-null 0/1126 family), reported with fill counts; NOT a multiplicity-corrected pass. PBO 0.543, DSR 231."
+}

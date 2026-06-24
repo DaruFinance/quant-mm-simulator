@@ -1,0 +1,161 @@
+{
+  "description": "Robustness of the 13-root cross-root Pearson r=0.92 between implied sigma^2/8 LVR and measured per-fill adverse drift (10s, bp). Stresses tail-dependence (LOO/drop-NG), rank-robustness (Spearman), sampling (bootstrap CI), and shared-driver (partial-sigma) channels.",
+  "source": "/home/daru/quant-mm-simulator/runs/maker_decomp/lvr_identity.json",
+  "n_roots": 13,
+  "roots": [
+    "NG",
+    "ZB",
+    "SI",
+    "CL",
+    "HG",
+    "ZN",
+    "6J",
+    "ZF",
+    "RTY",
+    "GC",
+    "6E",
+    "ES",
+    "NQ"
+  ],
+  "axes": {
+    "adverse_cost_bp_10s": "measured per-fill post-fill adverse drift, +ve magnitude (decomp)",
+    "lvr_equiv_bp_10s": "implied Milionis et al. sigma^2/8 LVR over 10s, bp of notional",
+    "rv_10s_bp": "sigma_tau, the 10s mid-return stdev (LINEAR, first-order), bp"
+  },
+  "full_sample": {
+    "pearson_lvr_vs_adverse": 0.9187004991388849,
+    "spearman_lvr_vs_adverse": 0.6373626373626374,
+    "frozen_carrier_pearson": 0.92
+  },
+  "a_leave_one_out": {
+    "per_root": [
+      {
+        "dropped": "NG",
+        "pearson": 0.5697167307447794,
+        "spearman": 0.5384615384615385
+      },
+      {
+        "dropped": "ZB",
+        "pearson": 0.9756386927698261,
+        "spearman": 0.6643356643356644
+      },
+      {
+        "dropped": "SI",
+        "pearson": 0.9178486223115252,
+        "spearman": 0.5804195804195805
+      },
+      {
+        "dropped": "CL",
+        "pearson": 0.9236174349326808,
+        "spearman": 0.5804195804195805
+      },
+      {
+        "dropped": "HG",
+        "pearson": 0.9188957004810062,
+        "spearman": 0.5734265734265735
+      },
+      {
+        "dropped": "ZN",
+        "pearson": 0.9240528631146027,
+        "spearman": 0.7342657342657343
+      },
+      {
+        "dropped": "6J",
+        "pearson": 0.9178945606409632,
+        "spearman": 0.6363636363636365
+      },
+      {
+        "dropped": "ZF",
+        "pearson": 0.9164831791567609,
+        "spearman": 0.6923076923076924
+      },
+      {
+        "dropped": "RTY",
+        "pearson": 0.9205233930815752,
+        "spearman": 0.6853146853146854
+      },
+      {
+        "dropped": "GC",
+        "pearson": 0.9183719681370833,
+        "spearman": 0.6223776223776225
+      },
+      {
+        "dropped": "6E",
+        "pearson": 0.916697210858191,
+        "spearman": 0.6433566433566434
+      },
+      {
+        "dropped": "ES",
+        "pearson": 0.9171376678021437,
+        "spearman": 0.6433566433566434
+      },
+      {
+        "dropped": "NQ",
+        "pearson": 0.925705283279852,
+        "spearman": 0.6433566433566434
+      }
+    ],
+    "pearson_min": 0.5697167307447794,
+    "pearson_max": 0.9756386927698261,
+    "pearson_min_dropped_root": "NG",
+    "drop_NG": {
+      "dropped": "NG",
+      "pearson": 0.5697167307447794,
+      "spearman": 0.5384615384615385
+    },
+    "drop_high_vol_tail_NG_SI_CL": {
+      "pearson": 0.38923006837435103,
+      "spearman": 0.32121212121212117,
+      "n_remaining": 10
+    }
+  },
+  "b_spearman": {
+    "full": 0.6373626373626374,
+    "drop_NG": 0.5384615384615385,
+    "drop_high_vol_tail": 0.32121212121212117,
+    "note": "rank correlation is tail-insensitive; a stable Spearman under drop-NG means the ordering, not the NG outlier, carries the association."
+  },
+  "c_bootstrap_ci": {
+    "method": "percentile bootstrap, resample the 13 roots with replacement",
+    "n_boot": 100000,
+    "mean": 0.8176530678604177,
+    "median": 0.9158234271970358,
+    "ci90_lo": 0.38682539804384536,
+    "ci90_hi": 0.9902521714577416,
+    "ci95_lo": 0.3252409900741765,
+    "ci95_hi": 0.9928591289976665,
+    "frac_above_0": 0.99851,
+    "frac_above_0p5": 0.87854
+  },
+  "d_partial_sigma_control": {
+    "question": "Do adverse drift and the sigma^2/8 LVR co-move BEYOND both being increasing in sigma_tau? (residual-on-residual after regressing each axis on sigma_tau)",
+    "partial_r_full": 0.5643504610511823,
+    "partial_r_drop_NG": 0.030523690405262465,
+    "partial_r_drop_high_vol_tail": 0.13166505426560515,
+    "partial_r_bootstrap": {
+      "n_boot": 100000,
+      "median": 0.4955171289824528,
+      "ci95_lo": -0.2402443757147497,
+      "ci95_hi": 0.9091207084331264
+    },
+    "context_corr_adverse_vs_sigma": 0.8789302576787744,
+    "context_corr_lvr_vs_sigma": 0.9654882914883226,
+    "mechanical_coupling_warning": {
+      "corr_lvr_vs_sigma_tau_squared": 0.999901859171048,
+      "note": "The implied LVR is sigma^2/8 BY DEFINITION, so it is mechanically ~quadratic in sigma_tau (corr with sigma_tau^2 ~ 1.00). Controlling for sigma_tau on the LVR axis is therefore partly controlling for the thing LVR IS; the partial-r is a CONSERVATIVE lower bound on co-movement beyond the shared volatility driver, not an independent-channel estimate."
+    }
+  },
+  "dex_reverse_check_is_partly_mechanical": {
+    "dex_pearson_lvr_per_hr_vs_sigma_hr": 0.9681,
+    "frozen_carrier": 0.97,
+    "note": "The DEX r=0.97 between per-hour LVR and pool sigma is partly MECHANICAL: LVR is DEFINED proportional to sigma^2, so a high LVR-vs-sigma correlation is built in by construction. It corroborates that the DEX cost is the same sigma-governed object as the CME adverse drift, but it is NOT independent corroboration of the cross-root association and must not be read as a second confirming datapoint."
+  },
+  "verdict": "SAME-VOLATILITY-DRIVER (raw r tail-driven, shared-driver robust)",
+  "verdict_text": "The SAME-DRIVER claim is robust in the form the re-scoped title makes: both the per-fill adverse drift and the sigma^2/8 LVR are governed by the same volatility scale sigma_tau (corr(adverse, sigma)=0.88, corr(LVR, sigma)=0.97), and the rank association survives dropping NG (Spearman 0.54). What is NOT robust is the bald headline Pearson r=0.92: it is substantially tail-driven by NG (drop-NG Pearson 0.57; drop the {NG,SI,CL} high-vol tail and Pearson falls to 0.39), and the co-movement BEYOND the shared volatility driver is near zero once sigma_tau is controlled on both axes (partial r: full 0.56, drop-NG 0.03, drop-tail 0.13). That near-zero partial is the CORRECT result for a single-driver thesis -- a large partial would mean a second, independent channel, which the paper does not claim. Report the association as one volatility-driven cost (adverse ~ linear in sigma, LVR ~ quadratic), with the raw r=0.92 flagged as tail-sensitive and the rank/sigma-tracking statistics as the robust backbone -- NOT as an independent co-movement beyond volatility.",
+  "frozen_carriers_preserved": {
+    "cross_root_pearson": 0.92,
+    "dex_pearson": 0.97,
+    "adverse_eq_0p74_sigma": 0.7399
+  },
+  "runtime_sec": 14.43
+}

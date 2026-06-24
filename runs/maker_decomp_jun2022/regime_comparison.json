@@ -1,0 +1,21 @@
+{
+  "calm_2023_JulOct": {
+    "spread": 0.6536006811987916,
+    "adverse": -0.660931839575777,
+    "net_mk": -0.007331158376985309,
+    "net_fee": -0.02233115837698531,
+    "n_fills": 353387,
+    "n_rootdays": 232,
+    "adv_over_cap": 1.0112165708939274
+  },
+  "highvol_2022_FOMCweek": {
+    "spread": 0.5165118871070368,
+    "adverse": -0.45224984012906133,
+    "net_mk": 0.06426204697797525,
+    "net_fee": 0.049262046977975246,
+    "n_fills": 338194,
+    "n_rootdays": 65,
+    "adv_over_cap": 0.8755845730135957
+  },
+  "note": "Cross-regime decomposition: the near-exact calm-regime cancellation (adverse ~= captured, net ~0) is regime-dependent. In the June-2022 FOMC/post-CPI stress week the captured spread widens faster than adverse selection, so adverse consumes only ~87% of the spread and pooled net-after-fee is positive (optimistic-fill accounting; one-sided bound still applies). June-2022 = us-futures-multiple-depth-2022 + us-futures-taq-2022, 13 roots x 5 days, front-month, same engine/cost/markout."
+}

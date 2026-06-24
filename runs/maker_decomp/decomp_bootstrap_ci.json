@@ -1,0 +1,21 @@
+{
+  "method": "root-day cluster bootstrap, B=10000, seed=20260613, fill-weighted, 10s",
+  "n_rootdays": 232,
+  "adverse_over_capture_pct": {
+    "point": 101.1,
+    "ci95": [
+      97.7,
+      104.7
+    ],
+    "contains_100": true
+  },
+  "net_after_fee_bp": {
+    "point": -0.0223,
+    "ci95": [
+      -0.0458,
+      0.0008
+    ],
+    "contains_0": true,
+    "p_negative": 0.972
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "branch": "H4_regime_aware_spreads",
+  "scope": "FULL_13_ROOT_FUTURES_UNIVERSE",
+  "verdict": "NULL",
+  "K": 4,
+  "widen_grid": [
+    [
+      1,
+      "both"
+    ],
+    [
+      2,
+      "both"
+    ],
+    [
+      1,
+      "ask"
+    ],
+    [
+      2,
+      "ask"
+    ]
+  ],
+  "widen_selection_rule": "among widen depths with a significant hi-vol CVaR cut (p<0.05), pick the one retaining the MOST hi-vol fills; else the strongest CVaR reducer",
+  "cost_model": {
+    "maker_bp": 0.2,
+    "taker_bp": 0.2,
+    "slip_bp": 0.2
+  },
+  "is_min": 60.0,
+  "oos_min": 20.0,
+  "causality": {
+    "truncation_invariant": null,
+    "error": "max() arg is an empty sequence"
+  },
+  "pooled": {
+    "n_roots_total": 20,
+    "n_roots_evaluable": 0,
+    "n_roots_thin_undefined": 0,
+    "n_roots_hollow_overwiden": 0,
+    "n_roots_error": 20,
+    "n_roots_PASS": 0,
+    "median_hi_cvar_delta": null,
+    "median_hi_realised_spread_delta_bp": null,
+    "n_cvar_delta_negative": 0,
+    "n_cvar_delta_total": 0,
+    "sign_test_p_cvar_reduction": null
+  },
+  "per_root_verdict": {},
+  "significance": {},
+  "errors": {
+    "BTC": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/BTC/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "ETH": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/ETH/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "OP": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/OP/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "LINK": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/LINK/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "DOGE": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/DOGE/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "BNB": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/BNB/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "ARB": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/ARB/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "SOL": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/SOL/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "AVAX": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/AVAX/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "XRP": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/XRP/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "LTC": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/LTC/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "SUI": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/SUI/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "HYPE": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/HYPE/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "APT": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/APT/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "AAVE": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/AAVE/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "INJ": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/INJ/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "NEAR": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/NEAR/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "TIA": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/TIA/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "SEI": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/SEI/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory",
+    "WLD": "[Errno 2] Failed to open local file '/home/daru/mm_cex/data_hl10/WLD/20250727.snap_trades.parquet'. Detail: [errno 2] No such file or directory"
+  },
+  "per_root": {},
+  "wall_s": 3.4
+}

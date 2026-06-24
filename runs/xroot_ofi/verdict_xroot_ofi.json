@@ -1,0 +1,136 @@
+{
+  "study": "cross-root integrated-OFI lead-lag (CME, true sign, depth-10)",
+  "prereg": "locked pre-registration",
+  "panel": {
+    "rows": 30915,
+    "roots": [
+      "ES",
+      "NQ",
+      "RTY",
+      "ZN",
+      "ZF",
+      "ZB",
+      "CL",
+      "NG",
+      "GC",
+      "SI",
+      "HG",
+      "6E",
+      "6J"
+    ],
+    "days": [
+      "20230709",
+      "20230710",
+      "20230711",
+      "20230712",
+      "20230713",
+      "20230719",
+      "20230730"
+    ],
+    "bin_ms": 10000
+  },
+  "own_ofi_contemporaneous_impact_is_r2_mean": 0.5445474069787158,
+  "own_ofi_lagged_predictive_is_r2_mean": 0.006560711960354237,
+  "cost_frontier": {
+    "cost0x": {
+      "n_windows": 17,
+      "incr_r2_oos_mean": -0.00474525087695944,
+      "incr_r2_oos_bywindow_pos_frac": 0.058823529411764705,
+      "r2_own_oos_mean": 0.005416402132896382,
+      "r2_cross_oos_mean": 0.0006711512559369421,
+      "net_cross_mean_bp": 0.09082671467202662,
+      "gross_cross_mean_bp": 0.11244295370984998,
+      "net_own_mean_bp": 0.11644195767943942,
+      "net_windows_pos_frac": 1.0,
+      "tail_guard": {
+        "rrr": Infinity,
+        "rrr_ex_best": Infinity,
+        "worst": 5.93981112040362e-06,
+        "skew": 0.9712628055906959
+      },
+      "lo_hac": {
+        "sharpe": 0.14482581780615286,
+        "t_hac": 23.555596589781036
+      }
+    },
+    "cost0.5x": {
+      "n_windows": 17,
+      "incr_r2_oos_mean": -0.00474525087695944,
+      "incr_r2_oos_bywindow_pos_frac": 0.058823529411764705,
+      "r2_own_oos_mean": 0.005416402132896382,
+      "r2_cross_oos_mean": 0.0006711512559369421,
+      "net_cross_mean_bp": -0.6067517605162832,
+      "gross_cross_mean_bp": 0.11244295370984998,
+      "net_own_mean_bp": -0.5892956129561548,
+      "net_windows_pos_frac": 0.0,
+      "tail_guard": {
+        "rrr": 0.0,
+        "rrr_ex_best": 0.0,
+        "worst": -6.736732860076981e-05,
+        "skew": -0.31733185307301215
+      },
+      "lo_hac": {
+        "sharpe": -0.9112915418217437,
+        "t_hac": -157.7103190744514
+      }
+    },
+    "cost1x": {
+      "n_windows": 17,
+      "incr_r2_oos_mean": -0.00474525087695944,
+      "incr_r2_oos_bywindow_pos_frac": 0.058823529411764705,
+      "r2_own_oos_mean": 0.005416402132896382,
+      "r2_cross_oos_mean": 0.0006711512559369421,
+      "net_cross_mean_bp": -1.3043302357045927,
+      "gross_cross_mean_bp": 0.11244295370984998,
+      "net_own_mean_bp": -1.2950331835917488,
+      "net_windows_pos_frac": 0.0,
+      "tail_guard": {
+        "rrr": 0.0,
+        "rrr_ex_best": 0.0,
+        "worst": -0.0001444503969766749,
+        "skew": -0.43908255158915405
+      },
+      "lo_hac": {
+        "sharpe": -1.6736762862078034,
+        "t_hac": -272.091792110994
+      }
+    }
+  },
+  "per_root_cross_benefit": {
+    "incr_r2_byroot_mean": {
+      "ES": -0.0025057229458693053,
+      "NQ": -0.003472704328620562,
+      "RTY": -0.006988872936435046,
+      "ZN": -0.0036165862168481408,
+      "ZF": -0.001343524921798495,
+      "ZB": -0.004160725258992261,
+      "CL": -0.005620211312208787,
+      "NG": -0.005429901572760948,
+      "GC": -0.005574017062367944,
+      "SI": -0.006626949151774831,
+      "HG": -0.006433931187113238,
+      "6E": -0.006117486951685771,
+      "6J": -0.0037976275539973996
+    },
+    "bhy_significant_roots": 0,
+    "bhy_crit_p_rank1": 0.001209431471221901,
+    "nominal_trial_count": 17.0,
+    "note_trials": "nominal_trial_count is the raw count of WFO windows, NOT a deflated-Sharpe effective-trials estimate; reported nominally. A real correlation-based deflation is moot here because the cross term is null (0/13 BHY-significant) before any deflation.",
+    "note_bhy_floor": "the per-root incr-R^2 p-values are t-based (continuous), not permutation-bounded, so the BHY rank-1 hurdle is attainable in principle; the cross term simply does not clear it (0/13)."
+  },
+  "block_bootstrap_null": {
+    "obs_incr_r2": -0.00474525087695944,
+    "null_mean": -0.005498035088620907,
+    "p_value_block": 0.09090909090909091,
+    "p_value_single_bar": 0.08091908091908091,
+    "M": 1000,
+    "note": "block (preserves vol clustering, primary) + single-bar (destroys all serial structure, secondary) schemes"
+  },
+  "pbo_cscv": {
+    "pbo": 0.4,
+    "n_strategies": 13,
+    "T_windows": 17,
+    "n_splits": 70,
+    "note": "PBO of the per-root cross-model incremental OOS R^2; ~0.5 or high confirms the cross-root term has no OOS-selectable edge"
+  }
+}

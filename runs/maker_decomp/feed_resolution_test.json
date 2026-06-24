@@ -1,0 +1,14 @@
+{
+  "hires_native": {
+    "spread": 0.594,
+    "adverse": -0.5908,
+    "ratio_pct": 99.47
+  },
+  "coarse_recon": {
+    "spread": 0.1467,
+    "adverse": -0.1437,
+    "ratio_pct": 97.93
+  },
+  "coarse_measured_pct": 82.1,
+  "conclusion": "Coarsening the high-resolution timestamps does NOT reproduce the coarse-reconstruction ratio (~98% vs ~82%), so the gap is structural to book reconstruction, not a timestamp-resolution artifact. Which reconstruction is closer to truth is undetermined from the data."
+}
