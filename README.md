@@ -1,6 +1,6 @@
 # quant-mm-simulator
 
-> The simulator used in "Adverse Selection Consumes the Touch" by Daniel Gatto ([SSRN 7022599](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7022599)). Method and results: [daru.finance/research/market-making](https://www.daru.finance/research/market-making).
+> The simulator used in "Adverse Selection Consumes the Touch" by Daniel Gatto ([SSRN 7022599](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7022599)). Method and results: [daru.finance/research/market-making](https://daru.finance/research/market-making).
 
 An event-driven market-making simulator: L2 book + tape replay, queue-position-aware fills,
 continuous fractional inventory, a quoter contract with pluggable quoting models, a hedge engine,
